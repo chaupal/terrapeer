@@ -1,12 +1,11 @@
 BODY 
 {
 	BACKGROUND:  url(images/alum-background.gif);
-	font-size: 10px;
+	font-size: 10pt;
 	MARGIN-TOP: 20px; 
 	MARGIN-LEFT: 20px; 
 	MARGIN-RIGHT: 20px; 	
 	COLOR: black; 
-	FONT-SIZE: 11pt; 
 	FONT-STYLE: normal; 
 	FONT-FAMILY: Arial, Helvetica, Sans-Serif; 
 	TEXT-ALIGN: left; 
@@ -39,7 +38,7 @@ H1
 } 
 H2 
 {
-	FONT-SIZE: 11pt; 
+	FONT-SIZE: 10pt; 
 	COLOR: #333333; 
 	FONT-VARIANT: small-caps; 
 	FONT-STYLE: bold; 
