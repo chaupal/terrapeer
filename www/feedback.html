@@ -1,0 +1,145 @@
+<html><!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>c948179 Master Thesis</title>
+<!-- InstanceEndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="main.css" type="text/css">
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+<body>
+<p align="right"><font size="2"><i><strong><font color="#999999">You are here:</font> 
+  </strong> terrapeer.dev.java.net <!-- InstanceBeginEditable name="EditRegionLocation" --><i><strong>/ 
+  </strong>Open Feedback-based Trust Model </i><!-- InstanceEndEditable --></i></font></p>
+<h1><!-- InstanceBeginEditable name="EditRegionHeadline" -->Open Feedback-based 
+  Trust Model<!-- InstanceEndEditable --></h1>
+<p><font color="#999999">Main Menu:</font> <a href="index.html">Home</a> | 
+  <a href="overview.html">Project Overview</a> | <a href="resources.html">Resources</a> 
+  | <a href="screenshots.html">Screenshots</a></p>
+<hr>
+<!-- InstanceBeginEditable name="EditRegion1" --> 
+<p align="center"><font color="#999999">On this page:</font> <a href="#intro">Introduction</a> 
+  | <a href="#rate">Rating</a> | <a href="#vote">Votes</a> | <a href="#pfb">Private 
+  Feedback</a> | <a href="#afb">Automated Feedback</a> | <a href="#afbf">Auto-Feedback 
+  Formulas</a></p>
+<hr>
+<h2><a name="intro"></a>Introduction</h2>
+<P STYLE="margin-bottom: 0cm; font-style: normal">This model is network-based, 
+  where a peer is an application able to connect to other peers, and let user's 
+  create categorized subjects and submit feedback on them. A peer represents that 
+  subject specifically or commonly. A feedback is a value in a given range indicating 
+  a user's personal view on the particular subject. Comments could be added to 
+  feedback-values.</P>
+<P STYLE="margin-bottom: 0cm; font-style: normal; font-weight: medium">A basic 
+  set of rules for this feedback-network could be:</P>
+<UL style="margin-bottom: 0cm">
+  <LI> 
+    <P STYLE="margin-bottom: 0cm; font-style: normal; font-weight: medium"> Each 
+      peer is unique (ID)</P>
+  <LI>Votes and rates are cast using authentication, integrity, and confidentiality 
+  <LI>Authentication mechanisms are person-to-person based 
+  <LI>Integrity and confidentiality is ensured using public key encryption 
+  <LI>One peer can rate and/or vote another peer 
+  <LI>Rates and votes may be authenticated or anonymous 
+  <LI>The authenticity of a peer is public 
+  <LI>A peer's rating/votes may be displayed public, in limited groups, or kept 
+    private 
+  <LI>A rate can be a value between 0 and 100 on any rate-subject 
+  <LI>A vote is always the value 1 
+  <LI>Rate-subjects and vote-subjects are categorized 
+  <LI>One peer can only rate another peer once on a rate-subject 
+  <LI>One peer can vote another peer once on a vote-subject 
+  <LI>Rate- and/or vote-groups can be created 
+  <LI>Groups are categorized, and include two or more subjects 
+  <LI>Group ratings and votes are balanced in that the total amount of rates/votes 
+    has to be distributed among the group subjects 
+  <LI>Rates and votes may be updated at any time 
+  <LI>Automatic updating mechanisms may be in place (if-then) 
+  <LI>Update feedback-loops may be constructed between peers (if peer A votes 
+    X, then vote Y on B) 
+  <LI>The source (peer) of a rate/vote may be tracked 
+  <LI>Auto-updating mechanisms of a rate/vote may be tracked 
+</UL>
+<P STYLE="margin-bottom: 0cm; font-style: normal; font-weight: medium"> Examples 
+  of Peer-based Feedback follow...</P>
+<h2> <a name="rate"></a>Rating</h2>
+<P STYLE="margin-bottom: 0cm; font-style: normal; font-weight: medium"> Peers 
+  A, B, and C submit their rating on a Subject S1 on peer D. The average rating 
+  of all values (sum divided by count) is displayed at D. Since ratings are between 
+  0 and 100, the average value will be in the same span. Subject S1 could be &ldquo;Delivery&rdquo; 
+  in the category &ldquo;Business / Customers / Experience&rdquo;, and it's value 
+  described as &ldquo;% Satisfaction&rdquo;.</P>
+<P STYLE="margin-bottom: 0cm; font-style: normal; font-weight: medium"> <IMG SRC="images/ma-100303_html_f1cd976.jpg" NAME="Graphic1" ALIGN=LEFT WIDTH=315 HEIGHT=267 BORDER=0><BR CLEAR=LEFT>
+  <BR>
+</P>
+<h2><a name="vote"></a>Votes</h2>
+<P STYLE="margin-bottom: 0cm; font-style: normal; font-weight: medium"> Similar 
+  to rating, votes can be counted.</P>
+<P STYLE="margin-bottom: 0cm; font-style: normal; font-weight: medium"> <IMG SRC="images/ma-100303_html_m4fb60aab.jpg" NAME="Graphic2" ALIGN=LEFT WIDTH=315 HEIGHT=322 BORDER=0><BR CLEAR=LEFT>
+</P>
+<h2><a name="pfb"></a>Private Feedback</h2>
+<P STYLE="margin-bottom: 0cm; font-style: normal; font-weight: medium"> A scenario 
+  where a peer E views at peer D's rating on a particular range of subjects. Since 
+  D keeps S1 private, E can view S2, S3, and S4.</P>
+<P STYLE="margin-bottom: 0cm; font-style: normal; font-weight: medium"> <IMG SRC="images/ma-100303_html_m45f42df8.jpg" NAME="Graphic3" ALIGN=LEFT WIDTH=554 HEIGHT=267 BORDER=0><BR CLEAR=LEFT>
+</P>
+<h2 STYLE="margin-bottom: 0cm; font-style: normal"><B><a name="afb"></a>Automated 
+  Feedback</B></h2>
+<P STYLE="margin-bottom: 0cm; font-style: normal; font-weight: medium"> This drawing 
+  illustrates an optional auto-feedback mechanism, that lets a peer B rate a peer 
+  D based on peer A's rating. Before submitting it's rating on subject S4, peer 
+  B first inquires A's rating on the same subject. Based on this value and the 
+  relationship to A, peer B can adjust it's rating on D.</P>
+<P STYLE="margin-bottom: 0cm; font-style: normal; font-weight: medium"> <IMG SRC="images/ma-100303_html_m72ac8960.jpg" NAME="Graphic4" ALIGN=LEFT WIDTH=411 HEIGHT=235 BORDER=0><BR CLEAR=LEFT>
+  <BR>
+</P>
+<P STYLE="margin-bottom: 0cm; font-style: normal; font-weight: medium"> Subject 
+  S4 could in this situation be &ldquo;Support of War in Iraq&rdquo; in the category 
+  &ldquo;Politics / Global Diplomacy / Current Events&rdquo;, where D could be 
+  a public discussion group, and A a political representative (or an index of 
+  the Oil-price).</P>
+<h2> <a name="afbf"></a>Auto-Feedback Formulas</h2>
+<P STYLE="margin-bottom: 0cm; font-weight: medium">A closer look at the automated 
+  feedback-mechanism. Peer D receives feedback from different peers (1) on subject 
+  S1. Internally, it can distinguish the feedback (2) by differentiating between 
+  anonymous and authenticated feedback, feedback that was submitted during a specific 
+  period of time, or feedback that was auto-created.</P>
+<P STYLE="margin-bottom: 0cm; font-weight: medium">Peer D could ask other peers, 
+  such as peer E, to give their feedback on subject S1 (3). Or peer E itself is 
+  interested in submitting feedback to peer D. If subject S1 is of a certain type, 
+  it might be useful for E to automate it's feedback on that particular subject, 
+  no matter which peer is asking. Peer E thus reads the existing feedback (4) 
+  from peer D, and possibly gathers information from interrelated peers (not shown).</P>
+<P STYLE="margin-bottom: 0cm; font-weight: medium">Peer E could create an auto-feedback 
+  formula (5) that determines it's rating on subject S1 by some factors. In the 
+  case below, E would not rate at all on S1 for D if the total feedback D received 
+  (yellow) was from less than 30 peers. If the last 10 feedback's were within 
+  4 weeks (red), E would notify it's user, maybe because the high activity requires 
+  special attention. Otherwise, E's rate on S1 (orange) would depend on the sum 
+  of those peers that rated with authentication (green) and those peers that E 
+  in particular trusts (pink). Excluding those feedbacks that themselves are based 
+  on formulas (light blue), might provide a better result. In other words, peer 
+  E bases it's rate on it's trusted peers and all those not anonymous, but none 
+  that use auto-feedback.</P>
+<P STYLE="margin-bottom: 0cm; font-weight: medium"><IMG SRC="images/ma-100303_html_m3dd8b166.jpg" NAME="Graphic5" ALIGN=LEFT WIDTH=554 HEIGHT=522 BORDER=0><BR CLEAR=LEFT>
+  <BR>
+  Subject S1 could in this instance be &ldquo;Network Uptime&rdquo; in the category 
+  &ldquo;Sun / Clusters&rdquo;, i.e. monitor E supports whatever other clusters 
+  and external customers think of cluster D, as long as their rating is not automated. 
+  Or maybe &ldquo;Food quality on Campus&rdquo;, i.e. if you think the food is 
+  good and a lot of people put their name under the same statement, I agree, too.</P>
+<P STYLE="margin-bottom: 0cm; font-weight: medium"><BR>
+</P>
+<!-- InstanceEndEditable --> 
+<hr>
+<p><a href="#" target="_top">top</a></p>
+<p align="right"> <font face="Arial, Helvetica, sans-serif" size="1"><i>Maintained
+      by Henrik Gehrmann (c) 2004 <br>
+  Last Edited 
+  <!-- #BeginDate format:Am1 -->July 5, 2004<!-- #EndDate -->
+  </i></font></p>
+
+</body>
+
+<!-- InstanceEnd --></html>
+

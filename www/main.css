@@ -1,0 +1,56 @@
+BODY 
+{
+	BACKGROUND:  url(images/alum-background.gif); 
+	MARGIN-TOP: 20px; 
+	MARGIN-LEFT: 20px; 
+	MARGIN-RIGHT: 20px; 	
+	COLOR: black; 
+	FONT-SIZE: 11pt; 
+	FONT-STYLE: normal; 
+	FONT-FAMILY: Arial, Helvetica, Sans-Serif; 
+	TEXT-ALIGN: left; 
+}
+A:link 
+{
+	COLOR: #444488; 
+	TEXT-DECORATION: none
+}
+A:visited 
+{
+	COLOR: #444488; TEXT-DECORATION: none
+}
+A:active 
+{
+	COLOR: red; TEXT-DECORATION: none
+}
+A:hover  
+{
+	COLOR: blue; TEXT-DECORATION: underline; 
+}
+H1
+{
+   	FONT-SIZE: 12pt; 
+   	COLOR: #222222; 
+   	FONT-STYLE: bold; 
+   	FONT-FAMILY: Arial, Helvetica, Sans-Serif; 
+   	TEXT-ALIGN: left; 
+   	TEXT-DECORATION: none
+} 
+H2 
+{
+	FONT-SIZE: 11pt; 
+	COLOR: #333333; 
+	FONT-VARIANT: small-caps; 
+	FONT-STYLE: bold; 
+	FONT-FAMILY: Arial, Helvetica, Sans-Serif; 
+	TEXT-ALIGN: left
+}   
+H3 
+{
+	FONT-SIZE: 10pt; 
+	COLOR: #666666; 
+	FONT-VARIANT: small-caps; 
+	FONT-STYLE: bold; 
+	FONT-FAMILY: Arial, Helvetica, Sans-Serif; 
+	TEXT-ALIGN: left
+}   

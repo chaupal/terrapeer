@@ -1,0 +1,344 @@
+<html><!-- InstanceBegin template="/Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>c948179 Master Thesis</title>
+<!-- InstanceEndEditable --> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="main.css" type="text/css">
+<!-- InstanceBeginEditable name="head" -->
+
+	
+
+	
+
+	<META NAME="AUTHOR" CONTENT="Henrik Gehrmann">
+
+<link rel="stylesheet" href="main.css" type="text/css">
+
+<style>
+
+<!--
+
+A.type1:link    {color:#FFFFFF; text-decoration:none;}
+
+A.type1:visited {color:#FFFFFF; text-decoration:none;}
+
+A.type1:active  {color:#FFFF00; text-decoration:none;}
+
+A.type1:hover   {color:#FFFF00; text-decoration:none;}
+
+
+
+A.type2:link    {color:#0099CC; text-decoration:none;}
+
+A.type2:visited {color:#0099CC; text-decoration:none;}
+
+A.type2:active  {color:#FFFF00; text-decoration:none;}
+
+A.type2:hover   {color:#FFFF00; text-decoration:none;}
+
+//-->
+
+</style>
+
+
+
+<!-- InstanceEndEditable -->
+</head>
+<body>
+<p align="right"><font size="2"><i><strong><font color="#999999">You are here:</font> 
+  </strong>dtu.dk / <a href="http://www.gbar.dtu.dk/~s948179">s948179 home</a> 
+  / <a href="http://www.gbar.dtu.dk/~s948179/projects/index.htm">projects</a> 
+  / <a href="http://www.gbar.dtu.dk/~s948179/master/index.html">master thesis 
+  home</a> <!-- InstanceBeginEditable name="EditRegionLocation" --><i><strong>/ 
+  </strong>Navigation and Trust in Cyberspace </i><!-- InstanceEndEditable --></i></font></p>
+<h1><!-- InstanceBeginEditable name="EditRegionHeadline" -->Navigation and Trust in Cyberspace<!-- InstanceEndEditable --></h1>
+<p>Henrik Gehrmann, s948179<br>
+  DTU - IMM - 2004</p>
+<p><font color="#999999">Main Menu:</font> <a href="index.html">Home</a> | 
+  <a href="overview.html">Project Overview</a> | <a href="resources.html">Resources</a> 
+  | <a href="screenshots.html">Screenshots</a><br>
+  <font color="#999999" size="-1">Specific Subjects:</font> 
+  <a href="nav_trust_cyber.html"><font size="-1">Navigation and Trust in Cyberspace</font></a><font size="-1"> 
+  | <a href="p2p_3d_spec.html">3D Application Specification</a> | <a href="feedback.html">Feedback 
+  System</a> | <a href="p2p_priv.html">Peer-based Personal Privacy</a> | <a href="v_space.html">Illustrations 
+  of the Virtual Space</a> | <a href="use-cases.html">Use Cases</a></font></p>
+<hr>
+<!-- InstanceBeginEditable name="EditRegion1" --> 
+<DIV TYPE=HEADER> 
+  <p align="center"><font color="#999999">On this page:</font> <a href="#ov">1.Overview</a> 
+    | <a href="#app">2.Application</a> | <a href="#tech">3.Technologies</a> | 
+    <a href="#space">4.Space</a> </p>
+  <hr>
+  <h1 STYLE="margin-bottom: 0.5cm; font-weight: medium" align="left"><font face="Arial, Helvetica, sans-serif"><a name="ov"></a>1.Overview</font></h1>
+</DIV>
+<p STYLE="margin-bottom: 0cm">From the user's point of view, the application would 
+  present a dynamic, navigational 3D space, that allows free control and interaction 
+  of objects while providing a basic platform that ensures privacy, trust, and 
+  security. 
+<p STYLE="margin-bottom: 0cm">The space is created dynamically by it's peers, 
+  which does not allow any central entity. Its platform, though, implements certain 
+  rules and rights for users, i.e. 'virtual free speech' and 'virtual property' 
+  laws. Thus, the space promotes equality and freedom. The objects could be an 
+  environment, a resource, a function, bots, a service, or a link to other existing 
+  (or legacy) infrastructures, such as the web, X3D or VRML. 
+<p STYLE="margin-bottom: 0cm">By focusing on the balance of keeping the space 
+  free, while not anarchistic, the main purpose of an implementation would be 
+  to create a dynamic distributed infrastructure where user's could roam, meet 
+  people, build private or public places, provide services, and search resources. 
+<p STYLE="margin-bottom: 0cm">The project implements a distributed (P2P) application, 
+  that... 
+<ul>
+  <li> can connect ad-hoc to the de-centralized peer-network </li>
+  <li> a dynamic space that visualizes the peer-network in 3D </li>
+  <li> user representation by avatars </li>
+  <li> provides navigation control interfaces 
+    <ul>
+      <li> coordinate-based world </li>
+      <li> level-based transport routes </li>
+      <li> 3D or peer-based bots </li>
+      <li> agent-based (autonomous) search, seek &amp; retrieve </li>
+      <li> object interaction, events </li>
+      <li> mechanisms to cope with user attention </li>
+    </ul>
+  </li>
+  <li> provides logic to cope with privacy, trust, and security 
+    <ul>
+      <li> basic user rights and space laws/restrictions </li>
+      <li> space navigation allowance, reservation/expiration, and settlement 
+        (zoning) </li>
+      <li> object control (ownership, read/view, create, modify, and delete) </li>
+      <li> space and object sharing </li>
+    </ul>
+  </li>
+  <li> is customizable (personalization) </li>
+  <li> could store and handle personal information (privacy) 
+    <ul>
+      <li> security systems that support authentication, integrity, and confidentiality 
+      </li>
+      <li> set permissions for sites how to use your data </li>
+      <li> set requirements for user-data for your own site </li>
+      <li> store user info and provide data-mining tools </li>
+    </ul>
+  </li>
+  <li> could provide a standard interface for plug-ins, which can host a variety 
+    of platforms, such as 
+    <ul>
+      <li> X3D/VRML spaces and IDE's </li>
+      <li> avatar and bot creators </li>
+      <li> personal and business web-sites/-services </li>
+      <li> peer-trading </li>
+      <li> a trust-creating feedback system </li>
+      <li> resource sharing (file/document sharing) </li>
+      <li> autonomous agent-based trading </li>
+      <li> communication tools (messengers, web-logs) </li>
+      <li> data-mining tools and knowledge management </li>
+    </ul>
+  </li>
+</ul>
+<p style="margin-bottom: 0cm">&nbsp; 
+<p style="margin-bottom: 0cm" align="center"><a href="#" target="_top"><font face="Arial, Helvetica, sans-serif">TOP</font></a> 
+<div type=FOOTER></div>
+<hr>
+<h1><font face="Arial, Helvetica, sans-serif"><B><a name="app"></a>2.Application</B></font></h1>
+<h2 STYLE="margin-bottom: 0cm"><font face="Arial, Helvetica, sans-serif">2.1. 
+  Overview</font></h2>
+<ul>
+  <li> peer-to-peer network </li>
+  <li> dynamic, navigational, coordinate-based 3D space </li>
+  <li> 3D space rules and rights </li>
+  <li> object control </li>
+  <li> space and object sharing </li>
+  <li> manage privacy and trust between peers (policies, authentication, feedback) 
+  </li>
+  <li> allow interfaces for IDE's and services, autonomous trading agents, etc. 
+  </li>
+</ul>
+<h2 STYLE="margin-bottom: 0cm">2.2. 3D World</h2>
+<ul>
+  <li> 
+    <p>peer-based display of world frame, user site, and local (stored) spaces 
+  </li>
+  <li> 
+    <p>navigational user avatar, roaming dynamically through space or virtual 
+      sites (peers) </li>
+  <li> 
+    <p>grid coordinates and transportation levels, i.e. bots-only, virtual land, 
+      free path </li>
+  <li> 
+    <p>user interaction/collaboration, messaging and grouping mechanisms </li>
+  <li> 
+    <p>object control and interaction mechanisms </li>
+  <li> 
+    <p>space rights and restrictions </li>
+</ul>
+<h2 STYLE="margin-bottom: 0cm">2.3. Navigation </h2>
+<ul>
+  <li> 
+    <p>large-scale, static grid with origo </li>
+  <li> 
+    <p>static levels for purpose-specific navigation </li>
+  <li> 
+    <p>dynamic virtual sites </li>
+  <li> 
+    <p>avatar and object filtering </li>
+  <li> 
+    <p>navigation aids (maps, metadata, areas and orientation cues, routes and 
+      paths) </li>
+</ul>
+<h2 STYLE="margin-bottom: 0cm">2.4. Personalization </h2>
+<ul>
+  <li> 
+    <p>Save your name, credit-card, shop-sites, logins </li>
+  <li> 
+    <p>Set personal preferences (learn user behaviour) </li>
+  <li> 
+    <p>Enter skills, interests, current projects, tasks, calendar, etc. </li>
+  <li> 
+    <p>Setup personalized GUI </li>
+  <li> 
+    <p>Connect events (incoming message, prioritized tasks, reminders, etc.) </li>
+</ul>
+<h2 STYLE="margin-bottom: 0cm">2.5. Trust </h2>
+<ul>
+  <li> 
+    <p>Manage policies, feedback </li>
+  <li> 
+    <p>Set permissions for sites how to use your data </li>
+  <li> 
+    <p>Set user-data requirements for own service/shop-site </li>
+  <li> 
+    <p>Store user info and provide data-mining tools </li>
+  <li> 
+    <p>Give feedback to pages, products or services (receive feedback to your 
+      own) </li>
+  <li> 
+    <p>Rate, vote, categorize, etc. services or opinions </li>
+  <li> 
+    <p>Recommendation system </li>
+</ul>
+<h2 STYLE="margin-bottom: 0cm">2.6. Search </h2>
+<ul>
+  <li> 
+    <p>Search pages/services </li>
+  <li> 
+    <p>Search by service, trust, rate, etc. </li>
+  <li> 
+    <p>Search for best interest (by keywords, feedback, similar use of service, 
+      etc.) </li>
+  <li> 
+    <p>Search for skilled people, project resources, etc. </li>
+  <li> 
+    <p>Use autonomous, roaming agents </li>
+</ul>
+<h2 STYLE="margin-bottom: 0cm">2.7. Create &amp; Share </h2>
+<ul>
+  <li> 
+    <p>Create home site (personal with rules; attach keywords, categories, meta-data) 
+  </li>
+  <li> 
+    <p>Create/enable/join web-rings/groups </li>
+  <li> 
+    <p>Create objects, services, etc. </li>
+  <li> 
+    <p>Create queries, polls, agents, bots </li>
+  <li> 
+    <p>Provide resources (files, research, documents, etc.) </li>
+  <li> 
+    <p>Enable different attention mechanisms (image, flash, sound, movement, email, 
+      etc.) </li>
+</ul>
+<h2 STYLE="margin-bottom: 0cm">2.8. Extend </h2>
+<ul>
+  <li> 
+    <p>Use standard plug-ins (schemas) </li>
+  <li> 
+    <p>HTTP: mozilla </li>
+  <li> 
+    <p>X3D: to build a house, set 3D menues, etc. </li>
+  <li> 
+    <p>create trading service, opinion / feedback funnel, etc. </li>
+  <li> 
+    <p>P3P: create trust </li>
+</ul>
+<h2 STYLE="margin-bottom: 0cm">2.9. Connect </h2>
+<ul>
+  <li> 
+    <p>Connect to dynamic worlds </li>
+  <li> 
+    <p>Connect to web, web-services </li>
+</ul>
+<p style="margin-bottom: 0cm">&nbsp; 
+<p style="margin-bottom: 0cm" align="center"><a href="#" target="_top"><font face="Arial, Helvetica, sans-serif">TOP</font></a> 
+<div type=FOOTER></div>
+<hr>
+<h1><a name="tech"></a>3.Technologies </h1>
+<h2 STYLE="margin-bottom: 0cm">3.1. Protocols/API's </h2>
+<ul>
+  <li> HTML/HTTP </li>
+  <li> XML/Schemas </li>
+  <li> JXTA </li>
+  <li> Java/J2EE (CORBA) </li>
+  <li> WebServices (AXIS/SOAP) </li>
+</ul>
+<h2 STYLE="margin-bottom: 0cm">3.2. User Interface </h2>
+<ul>
+  <li> X3D </li>
+  <li> OpenGL </li>
+  <li> Swing/Java3D </li>
+  <li> Avatars </li>
+</ul>
+<h2 STYLE="margin-bottom: 0cm">3.3. Security </h2>
+<ul>
+  <li> P3P </li>
+  <li> Certificates </li>
+  <li> PKI </li>
+</ul>
+<h2 STYLE="margin-bottom: 0cm">3.4. Intelligence </h2>
+<ul>
+  <li> Agents/Bots </li>
+  <li> Neural Networks </li>
+</ul>
+<p style="margin-bottom: 0cm">&nbsp; 
+<p style="margin-bottom: 0cm" align="center"><a href="#" target="_top"><font face="Arial, Helvetica, sans-serif">TOP</font></a> 
+<div type=FOOTER></div>
+<hr>
+<h1 STYLE="margin-bottom: 0cm"><a name="space"></a>4.Space </h1>
+<p STYLE="margin-bottom: 0cm">The space could be build up using a static 3D grid 
+  that spawns in a x/y-direction with a specific detail, and several layers in 
+  the z-direction. A center origo could provide as a starting point and navigational 
+  'well-known-location'. Navigational aids, such as static directions and coordinates 
+  could be provided by certain conventions (North, South, IPv6 address). 
+<p STYLE="margin-bottom: 0cm">The z-layers would provide different levels of virtual 
+  transportation, which could allow both restricted and free space. 
+<p STYLE="margin-bottom: 0cm">The current view would depend on the peers knowledge 
+  of the space, the connectivity with other peers, spatial and visibility limitations, 
+  and the current position of the user's avatar. 
+<p STYLE="margin-bottom: 0cm">Visualization aids, such as area coloring, the unlimited 
+  origo axis, a horizon, and visual details (or lack thereof) could enhance usability. 
+  Space, navigational aids, avatars, bots, sites and objects could thus be displayed 
+  dynamically and by choice. 
+<p STYLE="margin-bottom: 0cm">Global space rights and restrictions could enable 
+  open creation, secure individual freedom, privacy, and trust, while preventing 
+  anarchy. Object control would support this as well. Virtual property could be 
+  established, reserved, traded, and connected. Restrictions on each peer's virtual 
+  space (borders) could enable full personalization, including access control, 
+  interplay with connecting land, 'physical' laws, and functionality inside that 
+  space. 
+<p STYLE="margin-bottom: 0cm">3D rendering, collision detection, search algorithms, 
+  and networking are all processing-intensive tasks that have to be minimized 
+  in an implementation. The distributed architecture combined with dynamic visualization 
+  could prove useful in that matter. 
+<p STYLE="margin-bottom: 0cm">&nbsp;<!-- InstanceEndEditable --> 
+<hr>
+<p><a href="#" target="_top">go to the top</a></p>
+<p align="right"> <font face="Arial, Helvetica, sans-serif" size="1"><i>This is 
+  a page on the personal website of Henrik Gehrmann (<a href="mailto:s948179@student.dtu.dk">e-mail</a>)<br>
+  Last Edited 
+  <!-- #BeginDate format:Am1 -->March 5, 2004<!-- #EndDate -->
+  </i></font></p>
+
+</body>
+
+<!-- InstanceEnd --></html>
+
