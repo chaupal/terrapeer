@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vuobnmjdquwiltv-ezxocx">
+        <property name="$metaclass" value="Package Diagram"/>
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$defaultDiagram" value=""/>
+        <property name="@__options" value="toolbar.group.Tools.expanded = true&#10;toolbar.buttonRunCount = 2&#10;toolbar.group.#DEFAULT.expanded = true&#10;toolbar.group.system.expanded = true&#10;scrollX = 0&#10;scrollY = 0&#10;zoomFactor = 1.0&#10;"/>
+        <reference referencedUin="design:view:::Vuobnmjdquy3e22a8d8fm">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="15,21,159,398"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.xml.Node">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="390,10,200,555"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.xml.XmlException">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="110,480,200,149"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.xml.Document">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="180,30,200,427"/>
+        </reference>
+    </view>
+</nodeSet>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vuobnmjdmz6cizy-26tbq8">
+        <property name="$metaclass" value="Package Diagram"/>
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$defaultDiagram" value=""/>
+        <property name="@__options" value="toolbar.group.Tools.expanded = true&#10;toolbar.buttonRunCount = 2&#10;profilesettings.profile.together60.enabled = false&#10;Profiles_override = true&#10;toolbar.group.#DEFAULT.expanded = true&#10;toolbar.group.system.expanded = true&#10;LayoutOptions_override = false&#10;profilesettings.profile.umlincolor.enabled = false&#10;scrollX = 0&#10;scrollY = 0&#10;zoomFactor = 1.0&#10;"/>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.space.SpaceGrid">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="21,171,104,174"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.space.SpaceEnvio">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="20,20,139,110"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.space.MySpace">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="179,20,200,459"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.vui.space.MySpace:spaceCore">
+                <property name="sourceAnchor" value="233,479"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="233,511"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.space.SpaceNav">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="391,21,200,763"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.vui.space.SpaceNav:spaceCore">
+                <property name="sourceAnchor" value="391,565"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="288,565"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.space.SpaceCore">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="131,511,157,158"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.vui.space.SpaceCore:spaceGrid">
+                <property name="sourceAnchor" value="138,511"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="99,345"/>
+            </reference>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.vui.space.SpaceCore:spaceNav">
+                <property name="sourceAnchor" value="288,620"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="391,620"/>
+            </reference>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.vui.space.SpaceCore:spaceEnvio">
+                <property name="sourceAnchor" value="145,511"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="145,130"/>
+            </reference>
+        </reference>
+    </view>
+</nodeSet>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vuobnmjdmz6d7uv-wbi1c9">
+        <property name="$metaclass" value="Package Diagram"/>
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$defaultDiagram" value=""/>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.j3dui.manipulate.BoxSkirt">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.j3dui.manipulate.BoxOutline">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+    </view>
+</nodeSet>

@@ -1,0 +1,236 @@
+package  terrapeer.vui.j3dui.control;
+
+import java.util.*;
+import javax.media.j3d.*;
+import javax.vecmath.*;
+
+import terrapeer.vui.j3dui.utils.Debug;
+import terrapeer.vui.j3dui.control.*;
+import terrapeer.vui.j3dui.control.inputs.*;
+import terrapeer.vui.j3dui.control.inputs.sensors.*;
+
+/**
+A convenience class "dragger" with mouse and keyboard input and
+an InputDragTarget event output whose position is relative to
+the absolute source display space.  If more than one source
+display is used, the same dragger configuration applies to all
+of them.
+<P>
+Typically, an absolute dragger is used as-is for WRM, or an
+absolute input drag filter is added to its output to establish a
+reference origin in the display space, such as for a widget in
+a control panel. 
+<P>
+The event chain uses a mouse and keyboard drag sensor;
+connects the keyboard output to an absolute offset filter
+driven by the mouse for keyboard input reference; enables the
+two sensor outputs according to button and modifier conditions;
+connects those two filters to a drag enable filter used for drag
+canceling; and connects that filter to an input drag splitter
+as the event out.
+<P>
+Arrow keys are inherently a relative device.  To use them
+as an absolute device the mouse is used to establish an
+absolute reference position by means of an input move sensor
+connected to an input offset filter that filters the arrow
+sensor output.
+
+@author Jon Barrilleaux,
+copyright (c) 2000 Jon Barrilleaux,
+All Rights Reserved.
+*/
+public class AbsoluteDragger {
+	
+	// public interface =========================================
+
+	/**
+	Constructs an AbsoluteDragger.  For it to work, you must use
+	addEventSource() to add a source display.
+	*/
+	public AbsoluteDragger() {
+		// drag canceler (requires separate mod sensor)
+		EnableInputDragFilter dragEnabler =
+		 new EnableInputDragFilter(_eventOut, true);
+		
+		InputCancelTrigger cancelTrigger =
+		 new InputCancelTrigger(dragEnabler);
+		
+		_canceler = new AwtKeyboardModifierSensor(
+		 null, cancelTrigger);
+		_canceler.setModifiers(Input.MODIFIER_ESC);
+		
+		// absolute mouse drag
+		/// enable drag from modifiers		
+		EnableInputDragFilter mouseEnabler =
+		 new EnableInputDragFilter(dragEnabler);
+
+		/// sense mouse drag		
+		_mouseDragger = new AwtMouseDragSensor(null,
+		 mouseEnabler);
+		
+		// absolute arrow drag
+		/// enable drag from modifiers		
+		EnableInputDragFilter arrowEnabler =
+		 new EnableInputDragFilter(dragEnabler);
+
+		/// offset arrow with mouse		
+		OffsetInputDragPlugin arrowOffset =
+		 new OffsetInputDragPlugin();
+		InputDragFilter offsetFilter = new InputDragFilter(
+		 arrowEnabler, arrowOffset);
+		
+		_mouseMover = new AwtMouseMoveSensor(null,
+		 arrowOffset);
+
+		/// sense arrow drag		
+		_arrowDragger = new AwtKeyboardDragSensor(null,
+		 offsetFilter);
+		
+		// drag modifiers
+		_mouseTrigger = new InputModifierTrigger(mouseEnabler);
+		_arrowTrigger = new InputModifierTrigger(arrowEnabler);
+		
+		_modifier = new AwtKeyboardModifierSensor();
+		_modifier.getEventOut().addEventTarget(_mouseTrigger);
+		_modifier.getEventOut().addEventTarget(_arrowTrigger);
+		
+		// set defaults and init triggers
+		setMouseButtons(Input.BUTTON_ALL);
+		setMouseModifiers(Input.MODIFIER_ALL);
+		setArrowModifiers(Input.MODIFIER_ALL);
+	}
+
+	/**
+	Constructs an AbsoluteDragger with an event source
+	and target.
+	@param source Event and space source display.  Null if none,
+	but one must eventually be added.
+	@param target Event target.  Null if none.
+	*/
+	public AbsoluteDragger(Canvas3D source,
+	 InputDragTarget target) {
+
+	 	this();
+		if(source!=null) addEventSource(source);
+		if(target!=null) getEventOut().addEventTarget(target);
+	}
+
+	/**
+	Constructs an AbsoluteDragger with an event target and common
+	parameters.
+	@param source Event and space source display.  Null if none,
+	but one must eventually be added.
+	@param target Event target.  Null if none.
+	@param mouseButtons Button flags (Input.BUTTON_???).
+	Defaults to Input.BUTTON_ALL.  If BUTTON_NONE or
+	BUTTON_IGNORE, mouse dragging is disabled.
+	@param mouseModifiers Modifier flags (Input.MODIFIER_???).
+	Defaults to MODIFIER_ALL.  If MODIFIER_IGNORE, mouse
+	dragging is disabled.
+	@param arrowModifiers Modifier flags (Input.MODIFIER_???).
+	Defaults to MODIFIER_ALL.  If MODIFIER_IGNORE, arrow
+	dragging is disabled.
+	*/
+	public AbsoluteDragger(Canvas3D source,
+	 InputDragTarget target, int mouseButtons,
+	 int mouseModifiers, int arrowModifiers) {
+	
+	 	this(source, target);
+		
+		setMouseButtons(mouseButtons);
+		setMouseModifiers(mouseModifiers);
+		setArrowModifiers(arrowModifiers);
+	}
+	
+	/**
+	Gets the event output splitter.  Use it to add and
+	remove event targets.
+	@return Reference to the event out splitter.  Never null.
+	*/
+	public InputDragSplitter getEventOut() {
+		return _eventOut;
+	}
+
+	/**
+	Adds a 3D display as an event source for this dragger,
+	and sets capability bits of its view platform for use
+	in intuitive mapping.
+	@param source Event and space source display.  Never null.
+	*/
+	public void addEventSource(Canvas3D source) {
+		if(source==null) throw new
+		 IllegalArgumentException("'source' is null.");
+		
+		source.getView().getViewPlatform().setCapability(
+		 Node.ALLOW_LOCAL_TO_VWORLD_READ);
+
+		// order is important: canceler first
+		_canceler.addEventSource(source);
+		_mouseDragger.addEventSource(source);
+		_mouseMover.addEventSource(source);
+		_arrowDragger.addEventSource(source);
+		_modifier.addEventSource(source);
+	}
+	
+	/**
+	Sets the mouse buttons that enable mouse dragging.
+	@param mouseButtons Button flags (Input.BUTTON_???).
+	Defaults to Input.BUTTON_ALL.  If BUTTON_NONE or
+	BUTTON_IGNORE, mouse dragging is disabled.
+	*/
+	public void setMouseButtons(int buttons) {
+		_mouseDragger.setButtons(buttons);
+	}
+	
+	/**
+	Sets the modifier keys that enable mouse dragging.
+	@param modifiers Modifier flags (Input.MODIFIER_???).
+	Defaults to MODIFIER_ALL.  If MODIFIER_IGNORE, mouse
+	dragging is disabled.
+	*/
+	public void setMouseModifiers(int modifiers) {
+		_mouseTrigger.setModifiers(modifiers);
+		_mouseTrigger.initEventTarget(
+		 modifiers==Input.MODIFIER_NONE);
+	}
+	
+	/**
+	Sets the modifier keys that enable arrow dragging.
+	@param modifiers Modifier flags (Input.MODIFIER_???).
+	Defaults to MODIFIER_ALL.  If MODIFIER_IGNORE, arrow
+	dragging is disabled.
+	*/
+	public void setArrowModifiers(int modifiers) {
+		_arrowTrigger.setModifiers(modifiers);
+		_arrowTrigger.initEventTarget(
+		 modifiers==Input.MODIFIER_NONE);
+	}
+			
+	// personal body ============================================
+	
+	/** Event out splitter. Never null. */
+	private InputDragSplitter _eventOut =
+	 new InputDragSplitter();
+	
+	/** Canceler sensor. Never null. */
+	private AwtKeyboardModifierSensor _canceler;
+	
+	/** Mouse dragger. Never null. */
+	private AwtMouseDragSensor _mouseDragger;
+	
+	/** Mouse mover. Never null. */
+	private AwtMouseMoveSensor _mouseMover;
+	
+	/** Arrow dragger. Never null. */
+	private AwtKeyboardDragSensor _arrowDragger;
+	
+	/** Modifier sensor. Never null. */
+	private AwtKeyboardModifierSensor _modifier;
+		
+	/** Mouse modifier trigger. Never null. */
+	private InputModifierTrigger _mouseTrigger;
+	
+	/** Arrow modifier trigger. Never null. */
+	private InputModifierTrigger _arrowTrigger;
+	
+}

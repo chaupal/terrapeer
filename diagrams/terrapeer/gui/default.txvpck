@@ -1,0 +1,1677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vuobnmjdmz6cizyypzwl8">
+        <property name="$metaclass" value="Package Diagram"/>
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$defaultDiagram" value=""/>
+        <property name="@__options" value="toolbar.group.Tools.expanded = true&#10;toolbar.buttonRunCount = 2&#10;toolbar.group.#DEFAULT.expanded = true&#10;toolbar.group.system.expanded = true&#10;scrollX = 0&#10;scrollY = 0&#10;zoomFactor = 0.8151465693322416&#10;profilesettings.profile.umlincolor.enabled = false&#10;Profiles_override = true&#10;profilesettings.profile.businessprocess.enabled = true&#10;toolbar.group.bp.expanded = true&#10;"/>
+        <reference referencedUin="design:view:::Vuobnmjdmz6cizy-b8p0z4">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="18483,670,91,78"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonNavSpace_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="10,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonNavSpace_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="160,120"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8932,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.PanelZoneInfo">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="10,10,200,843"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonNavZone_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="229,1,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonNavZone_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="379,111"/>
+                <property name="bendpoints" value="13970,130"/>
+                <property name="targetAnchor" value="9063,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jSliderZoneGridStep_changeAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="229,130,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jSliderZoneGridStep_changeAdapter:adaptee">
+                <property name="sourceAnchor" value="379,240"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8921,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.FrameZoneGrid_jButton1_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="229,259,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.FrameZoneGrid_jButton1_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="404,369"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="404,1950"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonConfigPeer_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="4190,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonConfigPeer_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="4290,120"/>
+                <property name="bendpoints" value="4290,148"/>
+                <property name="targetAnchor" value="8961,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonTBMembers_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="229,259,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonTBMembers_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="379,369"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8921,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.FrameWorld_jButton1_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="229,388,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.FrameWorld_jButton1_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="379,498"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="542,1097"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jMenuItemFbMy_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="2870,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jMenuItemFbMy_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="2970,120"/>
+                <property name="bendpoints" value="2970,157"/>
+                <property name="targetAnchor" value="8949,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonSecuritySettings_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="11010,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonSecuritySettings_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="11110,120"/>
+                <property name="bendpoints" value="11110,130,9024,283"/>
+                <property name="targetAnchor" value="9024,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.HelpBox">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="229,517,200,302"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.HelpBox:panelTemplate1">
+                <property name="sourceAnchor" value="404,517"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="18315,373"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.NavControlDir_this_mouseMotionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="229,838,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.NavControlDir_this_mouseMotionAdapter:adaptee">
+                <property name="sourceAnchor" value="379,948"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="566,1354"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.DialogLogin_jButtonCancel_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="20,872,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.DialogLogin_jButtonCancel_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="170,872"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="19027,440"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jMenuItemViewSPZoneNav_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="2210,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jMenuItemViewSPZoneNav_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="2310,120"/>
+                <property name="bendpoints" value="2310,161"/>
+                <property name="targetAnchor" value="8943,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.Dialog">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="18883,670,166,238"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jSliderGridViewZoom_changeAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="20,872,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jSliderGridViewZoom_changeAdapter:adaptee">
+                <property name="sourceAnchor" value="220,921"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,921"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonSoutPanelUpDown_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="467,1,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonSoutPanelUpDown_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="617,111"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8936,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonZoneGridRight_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="467,130,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonZoneGridRight_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="617,240"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8921,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jPanelSpaceFilterTop_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="10570,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jPanelSpaceFilterTop_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="10670,120"/>
+                <property name="bendpoints" value="10670,130,9019,261"/>
+                <property name="targetAnchor" value="9019,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jLabelBBB_sphere_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="12110,10,200,142"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jLabelBBB_sphere_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="12210,152"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="9039,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonZoneBuilder_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="7710,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonZoneBuilder_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="7810,120"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8993,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonNavZone1_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="10,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonNavZone1_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="110,120"/>
+                <property name="bendpoints" value="110,176"/>
+                <property name="targetAnchor" value="8922,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.BrowserFrame_jButtonBookmark_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="467,259,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.BrowserFrame_jButtonBookmark_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="617,369"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="783,3011"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.BrowserFrame_jComboBoxBookmarks_itemAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="467,388,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.BrowserFrame_jComboBoxBookmarks_itemAdapter:adaptee">
+                <property name="sourceAnchor" value="617,498"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="764,3011"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jMenuItemViewSPSpaceNav_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="8810,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jMenuItemViewSPSpaceNav_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="8910,120"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="9003,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerManagerUI_jMenuItemExit_ActionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="11670,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerManagerUI_jMenuItemExit_ActionAdapter:adaptee">
+                <property name="sourceAnchor" value="11770,120"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="9033,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.DialogPrefs_jButtonCancel_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="467,517,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.DialogPrefs_jButtonCancel_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="617,627"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="980,2064"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="8920,532,200,10059"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI:jPanelZoneGrid">
+                <property name="sourceAnchor" value="8920,3222"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="1155,3222"/>
+            </reference>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI:jPanelSpaceNavHeading">
+                <property name="sourceAnchor" value="8920,1725"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="883,1725"/>
+            </reference>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI:jPanelZoneBuildSet">
+                <property name="sourceAnchor" value="8920,656"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="210,656"/>
+            </reference>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI:jPanelSpaceNavAltitude">
+                <property name="sourceAnchor" value="8920,2166"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="710,2166"/>
+            </reference>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI:jPanelSpaceNavCtrl_Dir">
+                <property name="sourceAnchor" value="8920,1633"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="686,1633"/>
+            </reference>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI:jPanelSpaceNavCompass">
+                <property name="sourceAnchor" value="8920,1768"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="518,1768"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jLabelEastSpace_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="5070,10,200,142"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jLabelEastSpace_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="5170,152"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8969,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonTBHelp_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="17390,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonTBHelp_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="17490,120"/>
+                <property name="bendpoints" value="17490,147,9111,335"/>
+                <property name="targetAnchor" value="9111,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jLabelBBB_house_c_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="467,388,200,142"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jLabelBBB_house_c_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="617,530"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonTBMyContacts_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="467,549,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonTBMyContacts_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="667,602"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,602"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jMenuItemCyberFilterSettings_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="230,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jMenuItemCyberFilterSettings_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="330,120"/>
+                <property name="bendpoints" value="330,173"/>
+                <property name="targetAnchor" value="8925,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonTBVirtualWorld_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="468,678,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonTBVirtualWorld_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="668,729"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,729"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonMyFeedback_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="1330,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonMyFeedback_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1430,120"/>
+                <property name="bendpoints" value="1430,163"/>
+                <property name="targetAnchor" value="8935,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonSpaceNavCtrl_OrigoNorth_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="468,807,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonSpaceNavCtrl_OrigoNorth_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="668,839"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,839"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jLabelEastNet_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="2650,10,200,142"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jLabelEastNet_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="2750,152"/>
+                <property name="bendpoints" value="2750,162"/>
+                <property name="targetAnchor" value="8947,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jPanelProjectsTop_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="16070,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jPanelProjectsTop_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="16170,120"/>
+                <property name="bendpoints" value="16170,130,9093,407"/>
+                <property name="targetAnchor" value="9093,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.DialogLogin_jTextField1_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="468,936,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.DialogLogin_jTextField1_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="618,936"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="19052,440"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jMenuItemHelpTopics_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="12770,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jMenuItemHelpTopics_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="12870,120"/>
+                <property name="bendpoints" value="12870,130"/>
+                <property name="targetAnchor" value="9048,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jMenuItemComChat_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="15410,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jMenuItemComChat_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="15510,120"/>
+                <property name="bendpoints" value="15510,137,9084,443"/>
+                <property name="targetAnchor" value="9084,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jMenuItemViewOpenLog_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="8370,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jMenuItemViewOpenLog_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="8470,120"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8999,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonMyContacts_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="3970,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonMyContacts_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="4070,120"/>
+                <property name="bendpoints" value="4070,143"/>
+                <property name="targetAnchor" value="8959,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jMenuItemPeerLogin_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="8590,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jMenuItemPeerLogin_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="8690,120"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="9001,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jLabelBBB_cyl_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="468,936,200,142"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jLabelBBB_cyl_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="668,1005"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,1005"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jMenuItemViewSPProject_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="17830,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jMenuItemViewSPProject_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="17930,120"/>
+                <property name="bendpoints" value="17930,152,9117,311"/>
+                <property name="targetAnchor" value="9117,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.RepositoryFrame_jButtonCancel_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="259,1020,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.RepositoryFrame_jButtonCancel_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="409,1130"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="782,1791"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonSpaceNavCtrl_Home_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="50,1020,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonSpaceNavCtrl_Home_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="250,1075"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,1075"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.FrameWorld">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="497,1097,182,238"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonTBLogin_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="5290,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonTBLogin_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="5390,120"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8971,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.HelpBox_jComboBoxTopic_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="717,1,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.HelpBox_jComboBoxTopic_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="767,111"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="379,517"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.DialogContacs">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="289,1168,200,366"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jMenuItemViewWorldSepWin_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="3530,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jMenuItemViewWorldSepWin_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="3630,120"/>
+                <property name="bendpoints" value="3630,156"/>
+                <property name="targetAnchor" value="8955,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.BrowserFrame_jButtonBack_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="717,130,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.BrowserFrame_jButtonBack_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="821,240"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="821,3011"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.NavControlDir">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="527,1354,159,558"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jLabelBBB_house_a_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="717,130,200,142"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jLabelBBB_house_a_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="867,272"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8921,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonObjRepository_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="12330,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonObjRepository_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="12430,120"/>
+                <property name="bendpoints" value="12430,151"/>
+                <property name="targetAnchor" value="9042,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jLabelBBS_url_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="717,291,200,142"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jLabelBBS_url_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="867,433"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonSpaceNavCtrl_OrigoTop_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="717,452,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonSpaceNavCtrl_OrigoTop_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="917,547"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,547"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonTBProject_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="717,581,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonTBProject_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="917,620"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,620"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jLabelBBB_landmark_c_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="717,710,200,142"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jLabelBBB_landmark_c_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="917,797"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,797"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jLabelEastZone_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="3750,10,200,142"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jLabelEastZone_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="3850,152"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8957,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jMenuItemPrefGeneral_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="1550,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jMenuItemPrefGeneral_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1650,120"/>
+                <property name="bendpoints" value="1650,162"/>
+                <property name="targetAnchor" value="8937,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.DialogPrefs_jButtonOK_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="717,871,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.DialogPrefs_jButtonOK_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="867,981"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="1005,2064"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.RepositoryFrame_jButtonParse_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="717,1000,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.RepositoryFrame_jButtonParse_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="817,1110"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="817,1791"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonGridViewOrigo_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="717,1129,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonGridViewOrigo_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="917,1184"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,1184"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonVirtualWorld_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="9200,532,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonVirtualWorld_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="9200,587"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="9120,587"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonFilterPanel_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="12550,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonFilterPanel_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="12650,120"/>
+                <property name="bendpoints" value="12650,140"/>
+                <property name="targetAnchor" value="9045,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.RepositoryFrame_jButtonLoad_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="717,1258,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.RepositoryFrame_jButtonLoad_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="792,1368"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="792,1791"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonNavSpace1_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="1770,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonNavSpace1_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1870,120"/>
+                <property name="bendpoints" value="1870,161"/>
+                <property name="targetAnchor" value="8939,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.HelpBox_jButtonCancel_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="698,1373,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.HelpBox_jButtonCancel_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="748,1373"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="379,819"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jMenuItemPrefSec_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="11450,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jMenuItemPrefSec_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="11550,120"/>
+                <property name="bendpoints" value="11550,130,9030,305"/>
+                <property name="targetAnchor" value="9030,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jSliderZoneGridZoom_changeAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="80,1373,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jSliderZoneGridZoom_changeAdapter:adaptee">
+                <property name="sourceAnchor" value="280,1414"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,1414"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jCheckBoxMenuItemCyberFilterShowGrid_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="3310,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jCheckBoxMenuItemCyberFilterShowGrid_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="3410,120"/>
+                <property name="bendpoints" value="3410,153"/>
+                <property name="targetAnchor" value="8953,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonTBMyInformation_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="955,1,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonTBMyInformation_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1105,111"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8940,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jMenuItemProjManager_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="10130,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jMenuItemProjManager_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="10230,120"/>
+                <property name="bendpoints" value="9015,239"/>
+                <property name="targetAnchor" value="9015,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jMenuItemServSearchPeerName_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="14530,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jMenuItemServSearchPeerName_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="14630,120"/>
+                <property name="bendpoints" value="14630,130,9072,491"/>
+                <property name="targetAnchor" value="9072,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.BrowserFrame_jButtonHome_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="955,130,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.BrowserFrame_jButtonHome_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1005,240"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="896,3011"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jCheckBoxMenuItemViewToolbarText_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="955,130,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jCheckBoxMenuItemViewToolbarText_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1105,240"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8921,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jPanelZoneNavTop_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="9030,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jPanelZoneNavTop_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="9130,120"/>
+                <property name="bendpoints" value="9005,184"/>
+                <property name="targetAnchor" value="9005,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jCheckBoxMenuItemShowSouthPanel_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="450,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jCheckBoxMenuItemShowSouthPanel_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="550,120"/>
+                <property name="bendpoints" value="550,170"/>
+                <property name="targetAnchor" value="8927,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.DialogLogin">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="18977,10,200,430"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.XTree">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="80,1168,200,190"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jLabelWestProjects_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="16510,10,200,142"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jLabelWestProjects_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="16610,152"/>
+                <property name="bendpoints" value="9099,383"/>
+                <property name="targetAnchor" value="9099,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.RepositoryFrame_jButtonOK_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="955,259,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.RepositoryFrame_jButtonOK_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1005,369"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="842,1791"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.DialogLog_jButtonOK_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="955,388,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.DialogLog_jButtonOK_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="1155,465"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="18263,465"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jMenuItemHelpGoTerraCentral_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="15850,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jMenuItemHelpGoTerraCentral_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="15950,120"/>
+                <property name="bendpoints" value="15950,130,9090,419"/>
+                <property name="targetAnchor" value="9090,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonZoneGrid_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="955,517,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonZoneGrid_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1155,574"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,574"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jLabelWestServices_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="3090,10,200,142"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jLabelWestServices_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="3190,152"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8951,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jPanelPersonalTop_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="13430,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jPanelPersonalTop_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="13530,120"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="9057,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.Compass">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="318,1572,200,331"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.PanelTemplate">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="18270,10,187,363"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jMenuItemProjMembership_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="7490,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jMenuItemProjMembership_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="7590,120"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8991,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jLabelBBB_landmark_b_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="955,388,200,142"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jLabelBBB_landmark_b_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="1105,530"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.Heading">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="724,1502,159,270"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.RepositoryFrame_jToggleButton1_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="955,678,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.RepositoryFrame_jToggleButton1_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1005,788"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="854,1791"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.DialogContacs_jButtonOK_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="955,549,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.DialogContacs_jButtonOK_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1005,659"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="439,1168"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.HelpBox_jButtonOK_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="955,807,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.HelpBox_jButtonOK_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="955,813"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="429,813"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerManagerUI_jButtonLoginStart_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="17610,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerManagerUI_jButtonLoginStart_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="17710,120"/>
+                <property name="bendpoints" value="17710,152,9114,323"/>
+                <property name="targetAnchor" value="9114,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.RepositoryFrame">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="717,1791,200,1182"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.RepositoryFrame:jPanelZoneInfo">
+                <property name="sourceAnchor" value="773,1791"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="160,853"/>
+            </reference>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.RepositoryFrame:xTree">
+                <property name="sourceAnchor" value="754,1791"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="230,1358"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonZoneGridUp_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="955,936,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonZoneGridUp_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1155,970"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,970"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jLabelBBB_landmark_a_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="955,1065,200,142"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jLabelBBB_landmark_a_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="1155,1156"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,1156"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.BrowserFrame_jButton1_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="955,1226,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.BrowserFrame_jButton1_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1005,1336"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="902,3011"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.SkinLNF">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="18780,670,83,72"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jLabelBBB_pyr_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="955,1226,200,142"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jLabelBBB_pyr_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="1155,1297"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,1297"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonServWeb_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="955,1387,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonServWeb_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1155,1469"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,1469"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonSpaceNavCtrl_North_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="955,1387,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonSpaceNavCtrl_North_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1155,1442"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,1442"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonSpaceNavCtrl_Align_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="955,1516,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonSpaceNavCtrl_Align_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1155,1571"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,1571"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jCheckBoxMenuItemViewExpandAll_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="9910,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jCheckBoxMenuItemViewExpandAll_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="10010,120"/>
+                <property name="bendpoints" value="9013,228"/>
+                <property name="targetAnchor" value="9013,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jLabelWestTerraPeer_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="7270,10,200,142"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jLabelWestTerraPeer_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="7370,152"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8989,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jLabelWestCyberspace_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="14750,10,200,142"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jLabelWestCyberspace_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="14850,152"/>
+                <property name="bendpoints" value="9075,479"/>
+                <property name="targetAnchor" value="9075,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jMenuItemCyberZBuilder_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="9470,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jMenuItemCyberZBuilder_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="9570,120"/>
+                <property name="bendpoints" value="9009,206"/>
+                <property name="targetAnchor" value="9009,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.ZoneGrid_this_mouseMotionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="955,1645,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.ZoneGrid_this_mouseMotionAdapter:adaptee">
+                <property name="sourceAnchor" value="1055,1755"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="1055,2833"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.Altitude">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="568,1950,142,286"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.FrameZoneGrid">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="379,1950,182,254"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.FrameZoneGrid:jPanelCenter">
+                <property name="sourceAnchor" value="515,2204"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="1005,2833"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.BrowserFrame_jButtonGo_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="955,1774,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.BrowserFrame_jButtonGo_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1005,1884"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="908,3011"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonGridViewAvatar_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="955,1774,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonGridViewAvatar_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1155,1829"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,1829"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jMenuItemPersContacts_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="17170,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jMenuItemPersContacts_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="17220,120"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="9118,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.DialogLog_jTextAreaLog_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="955,1903,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.DialogLog_jTextAreaLog_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="1105,1903"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="18313,748"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jLabelBBB_house_b_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="170,1950,200,142"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jLabelBBB_house_b_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="370,2021"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,2021"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.NavControlDir_this_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="955,1903,200,142"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.NavControlDir_this_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="955,1907"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="686,1907"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerManagerUI_jButtonMyInformation_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="4410,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerManagerUI_jButtonMyInformation_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="4510,120"/>
+                <property name="bendpoints" value="4510,154"/>
+                <property name="targetAnchor" value="8963,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jCheckBoxMenuItemShowNavPanel_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="14090,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jCheckBoxMenuItemShowNavPanel_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="14190,120"/>
+                <property name="bendpoints" value="14190,130,9066,515"/>
+                <property name="targetAnchor" value="9066,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jMenuItemViewSPZoneBuilder_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="7930,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jMenuItemViewSPZoneBuilder_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="8030,120"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8995,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonMembership_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="670,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonMembership_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="770,120"/>
+                <property name="bendpoints" value="770,168"/>
+                <property name="targetAnchor" value="8929,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.ZoneGrid_this_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="1193,139,182,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.ZoneGrid_this_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="1238,249"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="1105,2833"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.RepositoryFrame_jButtonMyZone_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="1193,268,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.RepositoryFrame_jButtonMyZone_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1243,378"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="867,1791"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jMenuItemHelpAbout_ActionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="15190,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jMenuItemHelpAbout_ActionAdapter:adaptee">
+                <property name="sourceAnchor" value="15290,120"/>
+                <property name="bendpoints" value="15290,147,9081,455"/>
+                <property name="targetAnchor" value="9081,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jMenuItemPersIM_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="8150,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jMenuItemPersIM_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="8250,120"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8997,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonTBLog_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="1193,397,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonTBLog_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1343,507"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jLabelBBS_web_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="1193,526,200,142"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jLabelBBS_web_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="1393,565"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,565"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jLabelWestPersonal_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="4630,10,200,142"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jLabelWestPersonal_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="4730,152"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8965,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jMenuItemComMsg_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="9690,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jMenuItemComMsg_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="9790,120"/>
+                <property name="bendpoints" value="9011,217"/>
+                <property name="targetAnchor" value="9011,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jCheckBoxMenuItemCyberFilterShowLandmarks_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="16290,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jCheckBoxMenuItemCyberFilterShowLandmarks_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="16390,120"/>
+                <property name="bendpoints" value="16390,130,9096,395"/>
+                <property name="targetAnchor" value="9096,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonTBMyHome_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="1193,816,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonTBMyHome_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1393,871"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,871"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonNavSPProjPanel_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="1193,687,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonNavSPProjPanel_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1393,755"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,755"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.DialogContacs_jButtonCancel_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="1193,945,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.DialogContacs_jButtonCancel_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1243,1055"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="464,1168"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonSpaceGridNavCtrl_Home_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="1193,1074,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonSpaceGridNavCtrl_Home_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1393,1129"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,1129"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonZoneGridDown_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="1193,1203,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonZoneGridDown_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1393,1250"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,1250"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.DialogPrefs">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="955,2064,200,750"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jPanelSpaceNavTop_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="14310,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jPanelSpaceNavTop_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="14410,120"/>
+                <property name="bendpoints" value="14410,130,9069,503"/>
+                <property name="targetAnchor" value="9069,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.NavControlSpeed">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="21,1950,142,238"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jCheckBoxMenuItemShowToolbar_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="1193,1332,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jCheckBoxMenuItemShowToolbar_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1393,1387"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,1387"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jMenuItemViewSPSpaceFilter_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="1990,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jMenuItemViewSPSpaceFilter_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="2090,120"/>
+                <property name="bendpoints" value="2090,161"/>
+                <property name="targetAnchor" value="8941,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.ZoneGrid">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="955,2833,200,779"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jMenuItemPeerDiscovery_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="15630,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jMenuItemPeerDiscovery_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="15730,120"/>
+                <property name="bendpoints" value="15730,130,9087,431"/>
+                <property name="targetAnchor" value="9087,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jMenuItemCyberGoHome_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="14970,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jMenuItemCyberGoHome_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="15070,120"/>
+                <property name="bendpoints" value="15070,157,9078,467"/>
+                <property name="targetAnchor" value="9078,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jToggleButtonSpaceNavVPO_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="16730,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jToggleButtonSpaceNavVPO_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="16830,120"/>
+                <property name="bendpoints" value="16830,160,9102,371"/>
+                <property name="targetAnchor" value="9102,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.BrowserFrame_jEditorPaneWeb_hyperlinkAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="1193,1461,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.BrowserFrame_jEditorPaneWeb_hyperlinkAdapter:adaptee">
+                <property name="sourceAnchor" value="1243,1571"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="921,3011"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jLabelBBS_ftp_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="1193,1590,200,142"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jLabelBBS_ftp_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="1393,1682"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,1682"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jCheckBoxZoneGridAutoMove_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="1193,1461,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jCheckBoxZoneGridAutoMove_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1393,1516"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,1516"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jMenuItemPrefNet_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="4850,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jMenuItemPrefNet_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="4950,120"/>
+                <property name="bendpoints" value="4950,153"/>
+                <property name="targetAnchor" value="8967,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.RepositoryFrame_jButtonLoadDefault_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="1193,1751,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.RepositoryFrame_jButtonLoadDefault_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1193,1826"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="917,1826"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jMenuItemObjRepository_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="5730,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jMenuItemObjRepository_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="5830,120"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8975,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonDiscovery_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="13210,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonDiscovery_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="13310,120"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="9054,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jLabelBBB_box_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="1193,1880,200,142"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jLabelBBB_box_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="1393,1951"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,1951"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonNavHome_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="7050,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonNavHome_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="7150,120"/>
+                <property name="bendpoints" value="7150,140"/>
+                <property name="targetAnchor" value="8987,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jToggleButtonSpaceNavVPP_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="6390,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jToggleButtonSpaceNavVPP_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="6490,120"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8981,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.AboutBox">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="18594,670,200,686"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonGoCoord_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="1193,2041,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonGoCoord_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1393,2096"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,2096"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jLabelBBS_chat_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="1193,2170,200,142"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jLabelBBS_chat_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="1393,2241"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,2241"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jMenuItemCyberStart_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="6830,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jMenuItemCyberStart_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="6930,120"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8985,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonTBMyFeedback_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="1193,2331,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonTBMyFeedback_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1393,2386"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,2386"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonLog_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="5510,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonLog_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="5610,120"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8973,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jPanelZoneBuilderTop_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="1110,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jPanelZoneBuilderTop_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="1210,120"/>
+                <property name="bendpoints" value="1210,164"/>
+                <property name="targetAnchor" value="8933,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonFilterPanel1_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="10790,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonFilterPanel1_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="10890,120"/>
+                <property name="bendpoints" value="10890,130,9021,272"/>
+                <property name="targetAnchor" value="9021,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jCheckBoxMenuItemCyberFilterBg_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="11890,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jCheckBoxMenuItemCyberFilterBg_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="11990,120"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="9036,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.BrowserFrame">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="746,3011,200,878"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jCheckBoxMenuItemCyberFilterShowZDetail_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="11230,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jCheckBoxMenuItemCyberFilterShowZDetail_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="11330,120"/>
+                <property name="bendpoints" value="11330,130,9027,294"/>
+                <property name="targetAnchor" value="9027,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jCheckBoxMenuItemCyberFilterFog_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="10350,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jCheckBoxMenuItemCyberFilterFog_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="10450,120"/>
+                <property name="bendpoints" value="10450,130,9017,250"/>
+                <property name="targetAnchor" value="9017,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jCheckBoxMenuItemShowWestPanel_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="13650,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jCheckBoxMenuItemShowWestPanel_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="13750,120"/>
+                <property name="bendpoints" value="13750,130"/>
+                <property name="targetAnchor" value="9060,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonProjManager_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="16950,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonProjManager_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="17050,120"/>
+                <property name="bendpoints" value="17050,155,9105,359"/>
+                <property name="targetAnchor" value="9105,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jSliderSpeed_changeAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="1348,2460,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jSliderSpeed_changeAdapter:adaptee">
+                <property name="sourceAnchor" value="1548,2515"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,2515"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonTBPreferences_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="1348,2589,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonTBPreferences_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1548,2644"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,2644"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.LogBox">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="18263,433,200,315"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.LogBox:panelTemplate1">
+                <property name="sourceAnchor" value="18361,433"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="18361,373"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jCheckBoxMenuItemCyberFilterShowMeta_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="890,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jCheckBoxMenuItemCyberFilterShowMeta_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="990,120"/>
+                <property name="bendpoints" value="990,166"/>
+                <property name="targetAnchor" value="8931,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonTBSecurity_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="2430,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonTBSecurity_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="2530,120"/>
+                <property name="bendpoints" value="2530,161"/>
+                <property name="targetAnchor" value="8945,532"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.BrowserFrame_jPanelNorth_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="1348,2718,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.BrowserFrame_jPanelNorth_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="1398,2828"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="933,3011"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.DialogLog_jButtonCancel_mouseAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="17983,433,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.DialogLog_jButtonCancel_mouseAdapter:adaptee">
+                <property name="sourceAnchor" value="18183,504"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="18263,504"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.RepositoryFrame_jButtonBrowse_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="1431,268,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.RepositoryFrame_jButtonBrowse_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1481,378"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="892,1791"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonSpaceNavCtrl_Stop_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="1431,139,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonSpaceNavCtrl_Stop_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1581,249"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8921,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jCheckBoxMenuItemShowEastPanel_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="12990,10,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jCheckBoxMenuItemShowEastPanel_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="13090,120"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="9051,532"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.AboutBox_button1_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="1431,655,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.AboutBox_button1_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1631,717"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="18594,717"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonSpaceGridNavCtrl_Origo_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="1431,526,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonSpaceGridNavCtrl_Origo_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1631,584"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,584"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.gui.TerraPeerGUI_jButtonZoneGridLeft_actionAdapter">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="1431,397,200,110"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.gui.TerraPeerGUI_jButtonZoneGridLeft_actionAdapter:adaptee">
+                <property name="sourceAnchor" value="1581,507"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="8920,532"/>
+            </reference>
+        </reference>
+    </view>
+</nodeSet>

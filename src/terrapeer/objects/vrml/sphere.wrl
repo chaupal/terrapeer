@@ -1,0 +1,13 @@
+#VRML V2.0 utf8
+# Henrik Gehrmann
+# Copyright 2003
+Shape 
+{
+	appearance DEF White Appearance 
+	{
+		material Material { }
+	}
+	geometry Sphere {
+				radius 1.0
+			}
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vuobnmjdmz6d31u-n1cb96">
+        <property name="$metaclass" value="Package Diagram"/>
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$defaultDiagram" value=""/>
+        <property name="@__options" value="toolbar.group.#DEFAULT.expanded = true&#10;toolbar.group.system.expanded = true&#10;scrollX = 0&#10;scrollY = 0&#10;zoomFactor = 0.9090909090909091&#10;toolbar.group.Tools.expanded = true&#10;toolbar.buttonRunCount = 2&#10;PrintOptions_override = false&#10;"/>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.zone.ZoneGeometry">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="390,260,200,523"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.zone.ZoneWorld">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="280,1160,192,219"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.vui.zone.ZoneWorld:currSelectedZone">
+                <property name="sourceAnchor" value="300,1160"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="300,779"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.zone.ZoneServices">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="15,19,200,347"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.zone.Reservation">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="320,1970,183,158"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.zone.Zone">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="140,400,200,379"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.vui.zone.Zone:myServices">
+                <property name="sourceAnchor" value="177,400"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="177,366"/>
+            </reference>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.vui.zone.Zone:myObjects">
+                <property name="sourceAnchor" value="267,400"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="267,239"/>
+            </reference>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.vui.zone.Zone:mySettlement">
+                <property name="sourceAnchor" value="321,779"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="410,880"/>
+            </reference>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.vui.zone.Zone:myGeometry">
+                <property name="sourceAnchor" value="340,589"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="390,589"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.zone.ZoneBuilder">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="40,870,200,651"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.vui.zone.ZoneBuilder:myZone">
+                <property name="sourceAnchor" value="190,870"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="190,779"/>
+            </reference>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.vui.zone.ZoneBuilder:builderRepository">
+                <property name="sourceAnchor" value="140,1521"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="140,1891"/>
+            </reference>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.vui.zone.ZoneBuilder:myZoneWorld">
+                <property name="sourceAnchor" value="240,1269"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="280,1269"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.zone.ZoneObjects">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="230,20,185,219"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.zone.Settlement">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="360,880,200,219"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.zone.ZoneRepository">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="40,1891,200,366"/>
+        </reference>
+    </view>
+</nodeSet>

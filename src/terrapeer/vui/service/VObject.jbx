@@ -1,0 +1,11 @@
+[PropertyInfo]
+bbType,int,false,false, , ,false,<default>
+fileName,String,false,false,fileName,fileName,true,<default>
+id,String,false,false,id,id,true,<default>
+name,String,false,false,name,name,true,<default>
+node,javax.media.j3d.Node,false,false,node,node,true,<default>
+[IconNames]
+
+
+
+

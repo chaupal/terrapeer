@@ -1,0 +1,671 @@
+#VRML V2.0 utf8
+
+# Model of a desk. 
+DEF DESK Transform {
+	scale 0.666 0.666 0.666
+	children [
+		Transform {
+			translation -2.566 -1.25 -1.21	# center object at origin
+			children [
+				Shape {
+					appearance Appearance {
+						material Material {
+							ambientIntensity 0.2
+							diffuseColor  .6 .5 .4
+							specularColor .2 .2 .2
+						}
+					}
+					geometry IndexedFaceSet {	# desk back back
+						coord Coordinate {
+							point [
+								0.16 0.667 -0.037,
+								4.972 0.667 -0.037,
+								4.972 2.354 -0.037,
+								0.16 2.354 -0.037
+							]
+						}
+						coordIndex [
+							0, 1, 2, 3, -1
+						]
+						normalPerVertex FALSE
+						ccw		FALSE
+						solid		TRUE		# doesn't work, so added front
+						convex		FALSE
+					}
+				}
+				Shape {
+					appearance Appearance {
+						material Material {
+							ambientIntensity 0.2
+							diffuseColor  .6 .5 .4
+							specularColor .2 .2 .2
+						}
+					}
+					geometry IndexedFaceSet {	# desk back front
+						coord Coordinate {
+							point [
+								0.16 0.667 0.004,
+								4.972 0.667 0.004,
+								4.972 2.354 0.004,
+								0.16 2.354 0.004
+							]
+						}
+						coordIndex [
+							0, 1, 2, 3, -1
+						]
+						normalPerVertex FALSE
+						ccw		TRUE
+						solid		FALSE
+						convex		FALSE
+					}
+				}
+				Shape {
+					appearance Appearance {
+						material Material {
+							ambientIntensity 0.149667
+							diffuseColor  1 0.498 0
+							specularColor .2 .2 .2
+						}
+					}
+					geometry IndexedFaceSet {	# desk top top
+						coord Coordinate {
+							point [
+								4.972 2.479 2.421,
+								4.972 2.479 0.004,
+								0.16 2.479 0.004,
+								0.16 2.479 2.421
+							]
+						}
+						coordIndex [
+							0, 1, 2, 3, -1
+						]
+						normalPerVertex FALSE
+						ccw		TRUE
+						solid		TRUE		# doesn't work, so added bottom
+						convex		FALSE
+					}
+				}
+				Shape {
+					appearance Appearance {
+						material Material {
+							ambientIntensity 0.149667
+							diffuseColor  1 0.498 0
+							specularColor .2 .2 .2
+						}
+					}
+					geometry IndexedFaceSet {	# desk top bottom
+						coord Coordinate {
+							point [
+								4.972 2.364 2.463,
+								4.972 2.364 -0.037,
+								0.16 2.364 -0.037,
+								0.16 2.364 2.463
+							]
+						}
+						coordIndex [
+							0, 1, 2, 3, -1
+						]
+						normalPerVertex FALSE
+						ccw		FALSE
+						solid		FALSE
+						convex		FALSE
+					}
+				}
+				Shape {
+					appearance Appearance {
+						material Material {
+							ambientIntensity 0.149667
+							diffuseColor  1 0.498 0
+							specularColor .2 .2 .2
+						}
+					}
+					geometry IndexedFaceSet {	# desk top front front
+						coord Coordinate {
+							point [
+								0.16 2.438 2.463,
+								4.972 2.438 2.463,
+								4.972 2.354 2.463,
+								0.16 2.354 2.463
+							]
+						}
+						coordIndex [
+							0, 1, 2, 3, -1
+						]
+						normalPerVertex FALSE
+						ccw		FALSE
+						solid		FALSE
+						convex		FALSE
+					}
+				}
+				Shape {
+					appearance Appearance {
+						material Material {
+							ambientIntensity 0.149667
+							diffuseColor  1 0.498 0
+							specularColor .2 .2 .2
+						}
+					}
+					geometry IndexedFaceSet {	# desk top front angle
+						coord Coordinate {
+							point [
+								0.16 2.479 2.421,
+								4.972 2.479 2.421,
+								4.972 2.438 2.463,
+								0.16 2.438 2.463
+							]
+						}
+						coordIndex [
+							0, 1, 2, 3, -1
+						]
+						normalPerVertex FALSE
+						ccw		FALSE
+						solid		FALSE
+						convex		FALSE
+					}
+				}
+				Shape {
+					appearance Appearance {
+						material Material {
+							ambientIntensity 0.149667
+							diffuseColor  1 0.498 0
+							specularColor .2 .2 .2
+						}
+					}
+					geometry IndexedFaceSet {	# desk top back angle
+						coord Coordinate {
+							point [
+								0.16 2.479 0.004,
+								4.972 2.479 0.004,
+								4.972 2.438 -0.037,
+								0.16 2.438 -0.037
+							]
+						}
+						coordIndex [
+							0, 1, 2, 3, -1
+						]
+						normalPerVertex FALSE
+						ccw		TRUE
+						solid		FALSE
+						convex		FALSE
+					}
+				}
+				Shape {
+					appearance Appearance {
+						material Material {
+							ambientIntensity 0.149667
+							diffuseColor  1 0.498 0
+							specularColor .2 .2 .2
+						}
+					}
+					geometry IndexedFaceSet {	# desk top back back
+						coord Coordinate {
+							point [
+								0.16 2.438 -0.037,
+								4.972 2.438 -0.037,
+								4.972 2.354 -0.037,
+								0.16 2.354 -0.037
+							]
+						}
+						coordIndex [
+							0, 1, 2, 3, -1
+						]
+						normalPerVertex FALSE
+						ccw		TRUE
+						solid		FALSE
+						convex		FALSE
+					}
+				}
+				Shape {
+					appearance Appearance {
+						material Material {
+							ambientIntensity 0.2
+							diffuseColor .6 .5 .4
+							specularColor .2 .2 .2
+						}
+					}
+					geometry IndexedFaceSet {	# desk left right
+						coord Coordinate {
+							point [
+								0.16 0 -0.037,
+								0.16 2.438 -0.037,
+								0.16 2.479 0.004,
+								0.16 2.479 2.421,
+								0.16 2.438 2.463,
+								0.16 0 2.463
+							]
+						}
+						coordIndex [
+							0, 1, 2, 3, 4, 5, -1
+						]
+						normalPerVertex FALSE
+						ccw		TRUE
+						solid		FALSE
+						convex		FALSE
+					}
+				}
+				Shape {
+					appearance Appearance {
+						material Material {
+							ambientIntensity 0.188
+							diffuseColor .6 .7 .4
+							specularColor .2 .2 .2
+						}
+					}
+					geometry IndexedFaceSet {	# desk left left
+						coord Coordinate {
+							point [
+								0.066 2.438 -0.037,
+								0.066 2.479 0.004,
+								0.066 2.479 2.421,
+								0.066 2.438 2.463,
+								0.066 0 2.463,
+								0.066 0 -0.037
+							]
+						}
+						coordIndex [
+							0, 1, 2, 3, 4, 5, -1
+						]
+						normalPerVertex FALSE
+						ccw		FALSE
+						solid		FALSE
+						convex		FALSE
+					}
+				}
+				Shape {
+					appearance Appearance {
+						material Material {
+							ambientIntensity 0.3
+							diffuseColor  1 1 1
+							specularColor .2 .2 .2
+						}
+					}
+					geometry IndexedFaceSet {	# desk left front front
+						coord Coordinate {
+							point [
+								0.066 2.438 2.463,
+								0.16 2.438 2.463,
+								0.16 0 2.463,
+								0.066 0 2.463
+							]
+						}
+						coordIndex [
+							0, 1, 2, 3, -1
+						]
+						normalPerVertex FALSE
+						ccw		FALSE
+						solid		FALSE
+						convex		FALSE
+					}
+				}
+				Shape {
+					appearance Appearance {
+						material Material {
+							ambientIntensity 0.3
+							diffuseColor  1 1 1
+							specularColor .2 .2 .2
+						}
+					}
+					geometry IndexedFaceSet {	# desk top top left
+						coord Coordinate {
+							point [
+								0.16 2.479 2.421,
+								0.16 2.479 0.004,
+								0.066 2.479 0.004,
+								0.066 2.479 2.421
+							]
+						}
+						coordIndex [
+							0, 1, 2, 3, -1
+						]
+						normalPerVertex FALSE
+						ccw		TRUE
+						solid		FALSE
+						convex		FALSE
+					}
+				}
+				Shape {
+					appearance Appearance {
+						material Material {
+							ambientIntensity 0.3
+							diffuseColor  1 1 1
+							specularColor .2 .2 .2
+						}
+					}
+					geometry IndexedFaceSet {	# desk left top front angle
+						coord Coordinate {
+							point [
+								0.066 2.479 2.421,
+								0.066 2.438 2.463,
+								0.16 2.438 2.463,
+								0.16 2.479 2.421
+							]
+						}
+						coordIndex [
+							0, 1, 2, 3, -1
+						]
+						normalPerVertex FALSE
+						ccw		TRUE
+						solid		FALSE
+						convex		FALSE
+					}
+				}
+				Shape {
+					appearance Appearance {
+						material Material {
+							ambientIntensity 0.3
+							diffuseColor  1 1 1
+							specularColor .2 .2 .2
+						}
+					}
+					geometry IndexedFaceSet {	# desk left top back angle
+						coord Coordinate {
+							point [
+								0.066 2.479 0.004,
+								0.066 2.438 -0.037,
+								0.16 2.438 -0.037,
+								0.16 2.479 0.004
+							]
+						}
+						coordIndex [
+							0, 1, 2, 3, -1
+						]
+						normalPerVertex FALSE
+						ccw		FALSE
+						solid		FALSE
+						convex		FALSE
+					}
+				}
+				Shape {
+					appearance Appearance {
+						material Material {
+							ambientIntensity 0.3
+							diffuseColor  1 1 1
+							specularColor .2 .2 .2
+						}
+					}
+					geometry IndexedFaceSet {	# desk left bottom
+						coord Coordinate {
+							point [
+								0.066 0 2.463,
+								0.16 0 2.463,
+								0.16 0 -0.037,
+								0.066 0 -0.037
+							]
+						}
+						coordIndex [
+							0, 1, 2, 3, -1
+						]
+						normalPerVertex FALSE
+						ccw		FALSE
+						solid		FALSE
+						convex		FALSE
+					}
+				}
+				Shape {
+					appearance Appearance {
+						material Material {
+							ambientIntensity 0.3
+							diffuseColor  1 1 1
+							specularColor .2 .2 .2
+						}
+					}
+					geometry IndexedFaceSet {	# desk left back back
+						coord Coordinate {
+							point [
+								0.16 2.438 -0.037,
+								0.066 2.438 -0.037,
+								0.066 0 -0.037,
+								0.16 0 -0.037
+							]
+						}
+						coordIndex [
+							0, 1, 2, 3, -1
+						]
+						normalPerVertex FALSE
+						ccw		FALSE
+						solid		FALSE
+						convex		FALSE
+					}
+				}
+				Shape {
+					appearance Appearance {
+						material Material {
+							ambientIntensity 0.188
+							diffuseColor .6 .7 .4
+							specularColor .2 .2 .2
+						}
+					}
+					geometry IndexedFaceSet {	# desk right right
+						coord Coordinate {
+							point [
+								5.066 0 -0.037,
+								5.066 2.438 -0.037,
+								5.066 2.479 0.004,
+								5.066 2.479 2.421,
+								5.066 2.438 2.463,
+								5.066 0 2.463
+							]
+						}
+						coordIndex [
+							0, 1, 2, 3, 4, 5, -1
+						]
+						normalPerVertex FALSE
+						ccw		TRUE
+						solid		FALSE
+						convex		FALSE
+					}
+				}
+				Shape {
+					appearance Appearance {
+						material Material {
+							ambientIntensity 0.2
+							diffuseColor .6 .5 .4
+							specularColor .2 .2 .2
+						}
+					}
+					geometry IndexedFaceSet {	# desk right left
+						coord Coordinate {
+							point [
+								4.972 2.438 -0.037,
+								4.972 2.479 0.004,
+								4.972 2.479 2.421,
+								4.972 2.438 2.463,
+								4.972 0 2.463,
+								4.972 0 -0.037
+							]
+						}
+						coordIndex [
+							0, 1, 2, 3, 4, 5, -1
+						]
+						normalPerVertex FALSE
+						ccw		FALSE
+						solid		FALSE
+						convex		FALSE
+					}
+				}
+				Shape {
+					appearance Appearance {
+						material Material {
+							ambientIntensity 0.3
+							diffuseColor  1 1 1
+							specularColor .2 .2 .2
+						}
+					}
+					geometry IndexedFaceSet {	# desk right front front
+						coord Coordinate {
+							point [
+								5.066 2.438 2.463,
+								4.972 2.438 2.463,
+								4.972 0 2.463,
+								5.066 0 2.463
+							]
+						}
+						coordIndex [
+							0, 1, 2, 3, -1
+						]
+						normalPerVertex FALSE
+						ccw		TRUE
+						solid		FALSE
+						convex		FALSE
+					}
+				}
+				Shape {
+					appearance Appearance {
+						material Material {
+							ambientIntensity 0.3
+							diffuseColor  1 1 1
+							specularColor .2 .2 .2
+						}
+					}
+					geometry IndexedFaceSet {	# desk right top top
+						coord Coordinate {
+							point [
+								5.066 2.479 2.421,
+								5.066 2.479 0.004,
+								4.972 2.479 0.004,
+								4.972 2.479 2.421
+							]
+						}
+						coordIndex [
+							0, 1, 2, 3, -1
+						]
+						normalPerVertex FALSE
+						ccw		TRUE
+						solid		FALSE
+						convex		FALSE
+					}
+				}
+				Shape {
+					appearance Appearance {
+						material Material {
+							ambientIntensity 0.3
+							diffuseColor  1 1 1
+							specularColor .2 .2 .2
+						}
+					}
+					geometry IndexedFaceSet {	# desk right top front angle
+						coord Coordinate {
+							point [
+								4.972 2.479 2.421,
+								4.972 2.438 2.463,
+								5.066 2.438 2.463,
+								5.066 2.479 2.421
+							]
+						}
+						coordIndex [
+							0, 1, 2, 3, -1
+						]
+						normalPerVertex FALSE
+						ccw		TRUE
+						solid		FALSE
+						convex		FALSE
+					}
+				}
+				Shape {
+					appearance Appearance {
+						material Material {
+							ambientIntensity 0.3
+							diffuseColor  1 1 1
+							specularColor .2 .2 .2
+						}
+					}
+					geometry IndexedFaceSet {	# desk right top back angle
+						coord Coordinate {
+							point [
+								4.972 2.479 0.004,
+								4.972 2.438 -0.037,
+								5.066 2.438 -0.037,
+								5.066 2.479 0.004
+							]
+						}
+						coordIndex [
+							0, 1, 2, 3, -1
+						]
+						normalPerVertex FALSE
+						ccw		FALSE
+						solid		FALSE
+						convex		FALSE
+					}
+				}
+				Shape {
+					appearance Appearance {
+						material Material {
+							ambientIntensity 0.3
+							diffuseColor  1 1 1
+							specularColor .2 .2 .2
+						}
+					}
+					geometry IndexedFaceSet {	# desk right bottom bottom
+						coord Coordinate {
+							point [
+								4.972 0 2.463,
+								5.066 0 2.463,
+								5.066 0 -0.037,
+								4.972 0 -0.037
+							]
+						}
+						coordIndex [
+							0, 1, 2, 3, -1
+						]
+						normalPerVertex FALSE
+						ccw		FALSE
+						solid		FALSE
+						convex		FALSE
+					}
+				}
+				Shape {
+					appearance Appearance {
+						material Material {
+							ambientIntensity 0.3
+							diffuseColor  1 1 1
+							specularColor .2 .2 .2
+						}
+					}
+					geometry IndexedFaceSet {	# desk right back back
+						coord Coordinate {
+							point [
+								5.066 2.438 -0.037,
+								4.972 2.438 -0.037,
+								4.972 0 -0.037,
+								5.066 0 -0.037
+							]
+						}
+						coordIndex [
+							0, 1, 2, 3, -1
+						]
+						normalPerVertex FALSE
+						ccw		FALSE
+						solid		FALSE
+						convex		FALSE
+					}
+				}
+				Shape {
+					appearance Appearance {
+						material Material {
+							ambientIntensity 0.2
+							diffuseColor .6 .5 .4
+							specularColor .2 .2 .2
+						}
+					}
+					geometry IndexedFaceSet {	# desk right right front
+						coord Coordinate {
+							point [
+								4.962 0.854 2.379,
+								4.962 2.354 2.379,
+								4.962 2.354 2.463,
+								4.962 0.854 2.463
+							]
+						}
+						coordIndex [
+							0, 1, 2, 3, -1
+						]
+						normalPerVertex TRUE
+						ccw		FALSE
+						solid		FALSE
+						convex		FALSE
+					}
+				}
+			]
+		}
+	]
+}	# DESK

@@ -1,0 +1,35 @@
+[PropertyInfo]
+access,terrapeer.vui.helpers.AccessRights,false,false, , ,true,<default>
+AlphaCoords,long,false,false, , ,false,<default>
+buildState,int,false,false, , ,true,<default>
+BuildState,int,false,false, , ,false,<default>
+CenterXCoords,long,false,false, , ,false,<default>
+CenterYCoords,long,false,false, , ,false,<default>
+CenterZCoords,long,false,false, , ,false,<default>
+filtered1,boolean,false,false, , ,true,<default>
+Filtered1,boolean,false,false, , ,false,<default>
+filtered2,boolean,false,false, , ,true,<default>
+Filtered2,boolean,false,false, , ,false,<default>
+globalState,int,false,false, , ,true,<default>
+GlobalState,int,false,false, , ,false,<default>
+myAccess,terrapeer.vui.helpers.AccessRights,false,false, , ,false,<default>
+myGeometry,terrapeer.vui.zone.ZoneGeometry,false,false, , ,false,<default>
+myLog,TerraPeerLog,false,false, , ,false,<default>
+myObjects,terrapeer.vui.zone.ZoneObjects,false,false, , ,false,<default>
+myServices,terrapeer.vui.zone.ZoneServices,false,false, , ,false,<default>
+mySettlement,terrapeer.vui.zone.Settlement,false,false, , ,false,<default>
+selected,boolean,false,false, , ,true,<default>
+Selected,boolean,false,false, , ,false,<default>
+XMLZoneData,String,false,false, , ,true,<default>
+zone_Description,String,false,false, , ,true,<default>
+Zone_Description,String,false,false, , ,false,<default>
+zone_ID,String,false,false, , ,true,<default>
+Zone_ID,String,false,false, , ,false,<default>
+zone_Name,String,false,false, , ,true,<default>
+Zone_Name,String,false,false, , ,false,<default>
+mouseOver,boolean,false,false,MouseOver,MouseOver,true,<default>
+[IconNames]
+
+
+
+

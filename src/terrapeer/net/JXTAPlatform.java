@@ -1,0 +1,98 @@
+package terrapeer.net;
+
+/**
+ * <p>Title: TerraPeer</p>
+ * <p>Description: P2P 3D system</p>
+ * <p>Copyright: Copyright (c) 2003</p>
+ * <p>Company: </p>
+ * @author Henrik Gehrmann
+ * @version 1.0
+ */
+
+import terrapeer.*;
+
+import java.io.*;
+import java.io.File;
+import java.io.IOException;
+import net.jxta.document.Advertisement;
+import net.jxta.document.AdvertisementFactory;
+import net.jxta.document.MimeMediaType;
+import net.jxta.exception.PeerGroupException;
+import net.jxta.id.ID;
+import net.jxta.impl.config.Config;
+import net.jxta.impl.peergroup.StdPeerGroup;
+import net.jxta.peergroup.PeerGroup;
+import net.jxta.peergroup.PeerGroupID;
+import net.jxta.protocol.ModuleImplAdvertisement;
+import net.jxta.protocol.PeerAdvertisement;
+
+/**
+ * from DemoPlatform (C:\_dev\jxta\servlet)
+ *
+ * <p>Title: TerraPeer</p>
+ * <p>Description: P2P feedback system</p>
+ * <p>Copyright: Copyright (c) 2003</p>
+ * <p>Company: </p>
+ * @author Henrik Gehrmann
+ * @version 1.0
+ */
+public class JXTAPlatform extends StdPeerGroup
+{
+  private static TerraPeerLog myLog = TerraPeerLog.getLogger();
+
+  /** Configuration of the peer on whose behalf I serve as the platform. */
+  private PeerAdvertisement peerAd;
+
+  /** Have I been initialized? */
+  private boolean initialized = false;
+
+  /**
+   * Creates a new <code>extPlatform</code> instance.
+   * @param peerAd Configuration of my peer.
+   */
+  public JXTAPlatform(PeerAdvertisement peerAd)
+  {
+    this.peerAd = peerAd;
+  }
+
+  public synchronized void init(PeerGroup parent, ID id, Advertisement ad) throws PeerGroupException
+  {
+    if (initialized)
+      throw new IllegalStateException("Already initialized");
+    if (ad != null)
+      throw new IllegalArgumentException("Platform uses its own ad");
+    try
+    {
+      myLog.addMessage(4,"Initializing External Platform...");
+      // Note: no call to Configurator in here, hence, no GUI! :-)
+      setConfigAdvertisement(peerAd);
+      myLog.addMessage(4,"   ModuleImplAdvertisement = "+vars.PLATFORM_XML_FILE);
+      ModuleImplAdvertisement platformImplDef = loadAdFromResource(vars.PLATFORM_XML_FILE);
+      super.init( /*parent*/null, PeerGroupID.worldPeerGroupID, platformImplDef);
+      myLog.addMessage(4, "   publishGroup = TERRAPEER PeerGroup");
+      publishGroup("TERRAPEER PeerGroup", "Reference Implementation of the TerraPeer Party 2003 Peer Group");
+    }
+    catch (IOException ex)
+    {
+      ex.printStackTrace();
+      throw new PeerGroupException("I/O error creating peer group: " + ex.getMessage());
+    }
+
+    myLog.addMessage(4,"   making directories...");
+    new File(Config.JXTA_HOME).mkdirs();
+    initialized = true;
+  }
+
+  /**
+   * Utility method to load an advertisement from a resource.
+   *
+   * @param resourceName Name of the resource we're loading.
+   * @return An advertisement version of the named resource.
+   * @throws IOException if an error occurs.
+   */
+  private static ModuleImplAdvertisement loadAdFromResource(String resourceName) throws IOException, FileNotFoundException
+  {
+    return (ModuleImplAdvertisement)AdvertisementFactory.newAdvertisement(MimeMediaType.XML_DEFAULTENCODING, JXTAPlatform.class.getResourceAsStream(resourceName));
+  }
+
+}

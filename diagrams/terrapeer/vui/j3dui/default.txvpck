@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vuobnmjdmz6d31k-n3f5tq">
+        <property name="$metaclass" value="Package Diagram"/>
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$defaultDiagram" value=""/>
+        <property name="@__options" value="toolbar.group.Tools.expanded = true&#10;toolbar.buttonRunCount = 2&#10;toolbar.group.#DEFAULT.expanded = true&#10;toolbar.group.system.expanded = true&#10;scrollX = 0&#10;scrollY = 0&#10;zoomFactor = 1.0&#10;"/>
+        <reference referencedUin="design:view:::Vuobnmjdmz6d7vz1mxkil">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="177,430,133,235"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdmz6d7vp-jvctg9">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="10,430,147,283"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdmz6d7vfkudkl0">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="276,10,154,379"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdmz6d7uv-wbi1c9">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="10,270,83,94"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdmz6d7wj-a5vd90">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="120,10,136,126"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdmz6d7w9-sec246">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="10,10,90,219"/>
+        </reference>
+        <reference referencedUin="design:view:::V-h0xtcadquyugkq-jnj0nx">
+            <property name="$shortcutReference" value=""/>
+            <property name="bounds" value="137,248,135,117"/>
+        </reference>
+    </view>
+</nodeSet>

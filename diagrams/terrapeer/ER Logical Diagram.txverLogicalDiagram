@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="V-7nxkkpdquysvzxxhhnjj">
+        <property name="$metaclass" value="erLogicalDiagram"/>
+        <property name="$description" value=""/>
+        <property name="@__options" value="toolbar.group.Tools.expanded = true&#10;toolbar.buttonRunCount = 2&#10;toolbar.group.#DEFAULT.expanded = true&#10;toolbar.group.system.expanded = true&#10;scrollX = 0&#10;scrollY = 0&#10;zoomFactor = 1.0&#10;"/>
+        <reference referencedUin="design:node:::N-fq6iqpdquyt733hpr0yu">
+            <property name="$shortcutReference" value=""/>
+            <property name="bounds" value="450,140,190,230"/>
+            <property name="bounds_setted_by_user" value="true"/>
+        </reference>
+        <reference referencedUin="design:node:::N-bokba7dquysw39p0gae5">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="190,100,90,120"/>
+        </reference>
+    </view>
+    <node uin="N-bokba7dquysw39p0gae5">
+        <property name="$name" value="Domains"/>
+        <property name="$metaclass" value="erLogicalDomainContainer"/>
+    </node>
+    <node uin="N-fq6iqpdquyt733hpr0yu">
+        <property name="$name" value="Entity1"/>
+        <property name="$metaclass" value="erLogicalEntity"/>
+    </node>
+</nodeSet>

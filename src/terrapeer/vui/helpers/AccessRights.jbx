@@ -1,0 +1,11 @@
+[PropertyInfo]
+ownership,String,false,false,Ownership,Ownership,true,<default>
+readViewRight,boolean,false,false,ReadViewRight,ReadViewRight,true,<default>
+writeChangeRight,boolean,false,false,WriteChangeRight,WriteChangeRight,true,<default>
+executeUseRight,boolean,false,false,ExecuteUseRight,ExecuteUseRight,true,<default>
+groups,java.util.Vector,false,false,Groups,Groups,true,<default>
+[IconNames]
+
+
+
+

@@ -1,0 +1,6 @@
+node1 > NAME = TerraManager, IMG = model-tree/tv-class.gif, REF = terrapeer/TerraManager.html#TerraManager->classFrame;
+node2 > NAME = TerraPeerLog, IMG = model-tree/tv-class.gif, REF = terrapeer/TerraPeerLog.html#TerraPeerLog->classFrame;
+node3 > NAME = TerraPeerLogInterface, IMG = model-tree/tv-class.gif, REF = terrapeer/TerraPeerLogInterface.html#TerraPeerLogInterface->classFrame;
+node4 > NAME = vars, IMG = model-tree/tv-class.gif, REF = terrapeer/vars.html#vars->classFrame;
+node0 > NAME = terrapeer, IMG = model-tree/tv-class-diagram.gif, REF = terrapeer/terrapeer.cl.html#terrapeer->classFrame, REF = terrapeer/doc-files/terrapeer.cl.html->imageFrame, CHILDS = node1:node2:node3:node4;
+ROOT > CHILDS = node0

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--JBuilder XML Project-->
+<project>
+  <property category="build" name="CopyExtensions.1" value="cg"/>
+  <property category="build" name="CopyExtensions.2" value="mtl"/>
+  <property category="build" name="CopyExtensions.3" value="obj"/>
+  <property category="build" name="CopyExtensions.4" value="wrl"/>
+  <property category="build" name="CopyExtensions.5" value="xml"/>
+  <property category="build" name="CopyExtensions.6" value="zip"/>
+  <property category="config" name="autoformat.java.indentStyle" value="3"/>
+  <property category="config" name="autoformat.java.optimize.imports.numOfClassesToImportOnDemandUse" value="3"/>
+  <property category="config" name="autoformat.java.preferredBinaryOperatorBreak" value="before"/>
+  <property category="config" name="autoformat.java.rightMargin" value="120"/>
+  <property category="config" name="inspector.column_width.0" value="0"/>
+  <property category="config" name="inspector.column_width.1" value="0"/>
+  <property category="config" name="option.links.bannedDestination.1" value="java.lang.String"/>
+  <property category="config" name="option.links.bannedDestination.10" value="java.math.BigInteger"/>
+  <property category="config" name="option.links.bannedDestination.11" value="java.util.Date"/>
+  <property category="config" name="option.links.bannedDestination.12" value="java.lang.Boolean"/>
+  <property category="config" name="option.links.bannedDestination.2" value="java.lang.Object"/>
+  <property category="config" name="option.links.bannedDestination.3" value="java.lang.Double"/>
+  <property category="config" name="option.links.bannedDestination.4" value="java.lang.Integer"/>
+  <property category="config" name="option.links.bannedDestination.5" value="java.lang.Float"/>
+  <property category="config" name="option.links.bannedDestination.6" value="java.math.BigDecimal"/>
+  <property category="config" name="option.links.bannedDestination.7" value=""/>
+  <property category="config" name="option.links.bannedDestination.8" value="java.util.Enumeration"/>
+  <property category="config" name="option.links.bannedDestination.9" value="java.util.Vector"/>
+  <property category="config" name="print.copies" value="1"/>
+  <property category="config" name="print.diagram.scope" value="1"/>
+  <property category="config" name="print.doc.include.diagrams" value="true"/>
+  <property category="config" name="print.preview.scale" value="100"/>
+  <property category="config" name="print.range.all" value="true"/>
+  <property category="config" name="print.range.pages" value=""/>
+  <property category="config" name="print.send.path" value="C:\Documents and Settings\liu\out\TerraPeer"/>
+  <property category="config" name="print.send.to" value="0"/>
+  <property category="config" name="print.size" value="A4"/>
+  <property category="idl" name="ProcessIDL" value="false"/>
+  <property category="javaFormatting" name="alignMultilineAssign" value="1"/>
+  <property category="javaFormatting" name="classBraceNextLine" value="1"/>
+  <property category="javaFormatting" name="extendsOnNewLine" value="0"/>
+  <property category="javaFormatting" name="implementsOnNewLine" value="0"/>
+  <property category="javaFormatting" name="methodBraceNextLine" value="1"/>
+  <property category="javaFormatting" name="otherBraceNextLine" value="1"/>
+  <property category="javaFormatting" name="packagePrefixGroups" value="terrapeer;(blank line);java;javax;(blank line);java.awt;javax.swing;(blank line);org;(*)"/>
+  <property category="javaFormatting" name="packageThreshold" value="3"/>
+  <property category="javaFormatting" name="spaceAfterTypecast" value="0"/>
+  <property category="javaFormatting" name="spaceBeforeLparen" value="0"/>
+  <property category="javaFormatting" name="wrapAtColumn" value="120"/>
+  <property category="javaFormatting" name="wrapBeforeOperator" value="1"/>
+  <property category="javadoc" name="custom.tags.1" value="todo;a;To Do:"/>
+  <property category="optimize.2" name="OptimizableType" value="com.borland.jbuilder.optimize.IntroOptimizeitProfiler"/>
+  <property category="optimize.3" name="OptimizableType" value="com.borland.jbuilder.optimize.IntroOptimizeitProfiler"/>
+  <property category="path" name="DefaultDiagram" value="diagrams"/>
+  <property category="path" name="Diagram" value="diagrams"/>
+  <property category="personality" name="personality" value="com.borland.jbuilder.personality.J2EEPersonality com.borland.jbuilder.personality.EJBPersonality com.borland.jbuilder.personality.WebAppPersonality com.borland.jbuilder.webservices.personality.WebServicesPersonality com.borland.jbuilder.personality.DatabasePersonality com.borland.jbuilder.personality.CorbaPersonality com.borland.jbuilder.personality.UnitTestPersonality com.borland.jbuilder.personality.JBuilderUMLPersonality com.borland.jbuilder.personality.J2MEPersonality com.borland.primetime.personality.TeamdevPersonality "/>
+  <property category="runtime" name="ConfigurationCount" value="6"/>
+  <property category="runtime.0" name="BuildTargetOnRun" value="com.borland.jbuilder.build.ProjectBuilder$ProjectBuildAction;make"/>
+  <property category="runtime.0" name="ConfigurationName" value="TerraManager A"/>
+  <property category="runtime.0" name="RunnableType" value="com.borland.jbuilder.runtime.ApplicationRunner"/>
+  <property category="runtime.0" name="application.class" value="terrapeer.TerraManager"/>
+  <property category="runtime.0" name="application.parameters" value="C:\liu\_g\projects\TerraPeer\TerraPeer\classes\ GForce_PEER_A"/>
+  <property category="runtime.1" name="BuildTargetOnRun" value="com.borland.jbuilder.build.ProjectBuilder$ProjectBuildAction;make"/>
+  <property category="runtime.1" name="ConfigurationName" value="TerraManager B"/>
+  <property category="runtime.1" name="RunnableType" value="com.borland.jbuilder.runtime.ApplicationRunner"/>
+  <property category="runtime.1" name="application.class" value="terrapeer.TerraManager"/>
+  <property category="runtime.1" name="application.parameters" value="C:\liu\_g\projects\TerraPeer\TerraPeer\classes\ GForce_PEER_B"/>
+  <property category="runtime.2" name="BuildTargetOnRun" value="com.borland.jbuilder.build.ProjectBuilder$ProjectBuildAction;make"/>
+  <property category="runtime.2" name="ConfigurationName" value="World"/>
+  <property category="runtime.2" name="RunnableType" value="com.borland.jbuilder.runtime.ApplicationRunner"/>
+  <property category="runtime.2" name="application.class" value="terrapeer.vui.MyWorld"/>
+  <property category="runtime.3" name="BuildTargetOnRun" value="com.borland.jbuilder.build.ProjectBuilder$ProjectBuildAction;make"/>
+  <property category="runtime.3" name="ConfigurationName" value="jxta Servlet"/>
+  <property category="runtime.3" name="RunnableType" value="com.borland.jbuilder.runtime.ServerRunner"/>
+  <property category="runtime.3" name="appserver.parameters" value=""/>
+  <property category="runtime.3" name="appserver.servername" value=""/>
+  <property category="runtime.3" name="appserver.vmparameters" value=""/>
+  <property category="runtime.3" name="enabled.services" value="jsp;naming"/>
+  <property category="runtime.3" name="jsp.launchuri" value="/servlet/terrapeer.net.helpers.RegistryVous"/>
+  <property category="runtime.3" name="jsp.portno" value="8085"/>
+  <property category="runtime.3" name="jsprunner.launchuri" value="/servlet/terrapeer.net.helpers.RegistryVous"/>
+  <property category="runtime.3" name="jsprunner.portno" value="8085"/>
+  <property category="runtime.3" name="server.arguments" value=""/>
+  <property category="runtime.3" name="server.disableServerClassTracing" value="0"/>
+  <property category="runtime.3" name="server.instance.name" value=""/>
+  <property category="runtime.3" name="server.name" value="Tomcat 4.0"/>
+  <property category="runtime.3" name="server.vmparameters" value=""/>
+  <property category="runtime.4" name="BuildTargetOnRun" value="com.borland.jbuilder.build.ProjectBuilder$ProjectBuildAction;make"/>
+  <property category="runtime.4" name="ConfigurationName" value="XML Schema Test"/>
+  <property category="runtime.4" name="RunnableType" value="com.borland.jbuilder.runtime.ApplicationRunner"/>
+  <property category="runtime.4" name="application.class" value="terrapeer.net.schema.terrapeer_v1Test"/>
+  <property category="runtime.5" name="BuildTargetOnRun" value="com.borland.jbuilder.build.ProjectBuilder$ProjectBuildAction;make"/>
+  <property category="runtime.5" name="ConfigurationName" value="XTreeTester"/>
+  <property category="runtime.5" name="RunnableType" value="com.borland.jbuilder.runtime.ApplicationRunner"/>
+  <property category="runtime.5" name="application.class" value="terrapeer.gui.XTreeTester"/>
+  <property category="runtime.5" name="application.parameters" value="test.xml"/>
+  <property category="runtime.6" name="BuildTargetOnRun" value="com.borland.jbuilder.build.ProjectBuilder$ProjectBuildAction;make"/>
+  <property category="runtime.6" name="ConfigurationName" value="XMLTest"/>
+  <property category="runtime.6" name="RunnableType" value="com.borland.jbuilder.runtime.ApplicationRunner"/>
+  <property category="runtime.6" name="application.class" value="terrapeer.net.helpers.XMLTest"/>
+  <property category="runtime.6" name="application.vmparameters" value="-verbosegc"/>
+  <property category="serverservices" name="disabled.services" value="connector;jdatastore;sqlj"/>
+  <property category="serverservices" name="single.server.name" value=""/>
+  <property category="sys" name="AuthorLabel" value="@author"/>
+  <property category="sys" name="BackupPath" value="bak"/>
+  <property category="sys" name="CheckStable" value="1"/>
+  <property category="sys" name="Company" value=""/>
+  <property category="sys" name="CompanyLabel" value="Company:"/>
+  <property category="sys" name="Copyright" value="Copyright (c) 2004"/>
+  <property category="sys" name="CopyrightLabel" value="Copyright:"/>
+  <property category="sys" name="DefaultPath" value="src"/>
+  <property category="sys" name="Description" value="P2P DVE System"/>
+  <property category="sys" name="DescriptionLabel" value="Description:"/>
+  <property category="sys" name="DocPath" value="doc"/>
+  <property category="sys" name="ExcludeClassEnabled" value="0"/>
+  <property category="sys" name="IncludeTestPath" value="1"/>
+  <property category="sys" name="InstanceVisibility" value="2"/>
+  <property category="sys" name="JDK" value="java version 1.4.2_01-b06"/>
+  <property category="sys" name="JvmVersion" value="1.4"/>
+  <property category="sys" name="LastTag" value="0"/>
+  <property category="sys" name="Libraries" value="JBCL;JXTA;utilLib;vrLib;extLib;dbLib;uiLib;Xerces;InternetBeans Express"/>
+  <property category="sys" name="MakeStable" value="0"/>
+  <property category="sys" name="OutPath" value="classes"/>
+  <property category="sys" name="SourcePath" value="src;test"/>
+  <property category="sys" name="TestPath" value="test"/>
+  <property category="sys" name="Title" value="TerraPeer"/>
+  <property category="sys" name="TitleLabel" value="Title:"/>
+  <property category="sys" name="Version" value="1.0"/>
+  <property category="sys" name="VersionLabel" value="@version"/>
+  <property category="sys" name="WorkingDirectory" value="."/>
+  <property category="sys" name="palette.bean.chooser.beans" value="terrapeer.gui.PanelTemplate;"/>
+  <property category="sys" name="uidesign.size.terrapeer.gui.AboutBox" value="400,363"/>
+  <property category="sys" name="uidesign.size.terrapeer.gui.BrowserFrame" value="656,623"/>
+  <property category="sys" name="uidesign.size.terrapeer.gui.DialogContacs" value="400,638"/>
+  <property category="sys" name="uidesign.size.terrapeer.gui.DialogLog" value="400,472"/>
+  <property category="sys" name="uidesign.size.terrapeer.gui.DialogPrefs" value="400,567"/>
+  <property category="sys" name="uidesign.size.terrapeer.gui.DialogRepository" value="590,719"/>
+  <property category="sys" name="uidesign.size.terrapeer.gui.PanelTemplate" value="549,474"/>
+  <property category="sys" name="uidesign.size.terrapeer.gui.PanelZoneInfo" value="570,300"/>
+  <property category="team" name="ignorePath.0" value="Tomcat"/>
+  <node name="Standard Doclet" type="Javadoc">
+    <property category="nodeJavadoc" name="buildWithProject" value="0"/>
+    <property category="nodeJavadoc" name="directory" value="doc"/>
+    <property category="nodeJavadoc" name="displayAllOutput" value="0"/>
+  </node>
+</project>

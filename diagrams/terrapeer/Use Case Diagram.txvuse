@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="V4mw90cdquypvmrnaym6j">
+        <property name="$metaclass" value="Use Case Diagram"/>
+        <property name="$description" value=""/>
+        <property name="@__options" value="toolbar.group.Tools.expanded = true&#10;toolbar.buttonRunCount = 2&#10;toolbar.group.#DEFAULT.expanded = true&#10;toolbar.group.system.expanded = true&#10;scrollX = 0&#10;scrollY = 0&#10;zoomFactor = 1.0&#10;"/>
+        <reference referencedUin="design:node:::N11kb11dquyq27hn3ewz7">
+            <property name="$shortcutReference" value=""/>
+            <property name="bounds" value="120,80,52,77"/>
+            <reference referencedUin="design:link:::L-fswq7adquyr8vb8sk1zq:N11kb11dquyq27hn3ewz7">
+                <property name="sourceAnchor" value="172,113"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="260,113"/>
+            </reference>
+        </reference>
+        <reference referencedUin="design:node:::N-5s8sx3dquyqfme-wppan3">
+            <property name="$shortcutReference" value=""/>
+            <property name="bounds" value="90,40,500,396"/>
+            <property name="bounds_setted_by_user" value="true"/>
+        </reference>
+        <reference referencedUin="design:node:::Np2nrjrdquyq9i3c9jqe6">
+            <property name="$shortcutReference" value=""/>
+            <property name="bounds" value="260,100,100,26"/>
+        </reference>
+    </view>
+    <node uin="N11kb11dquyq27hn3ewz7">
+        <property name="$name" value="Actor1"/>
+        <property name="$metaclass" value="Actor"/>
+        <link uin="L-fswq7adquyr8vb8sk1zq">
+            <property name="$metaclass" value="Association Link"/>
+            <property name="@stereotype" value="communicate"/>
+            <participant referencedUin="design:node:::N11kb11dquyq27hn3ewz7" role="Client"/>
+            <participant referencedUin="design:node:::Np2nrjrdquyq9i3c9jqe6" role="Supplier"/>
+        </link>
+    </node>
+    <node uin="Np2nrjrdquyq9i3c9jqe6">
+        <property name="$name" value="UseCase1"/>
+        <property name="$metaclass" value="Use Case"/>
+    </node>
+    <node uin="N-5s8sx3dquyqfme-wppan3">
+        <property name="$name" value="SystemBoundary1"/>
+        <property name="$metaclass" value="System Boundary"/>
+    </node>
+</nodeSet>

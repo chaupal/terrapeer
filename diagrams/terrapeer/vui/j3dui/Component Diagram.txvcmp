@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="V-h0xtcadquyugkq-jnj0nx">
+        <property name="$metaclass" value="Component Diagram"/>
+        <property name="$description" value=""/>
+        <property name="@__options" value="toolbar.group.Tools.expanded = true&#10;toolbar.buttonRunCount = 2&#10;toolbar.group.#DEFAULT.expanded = true&#10;toolbar.group.system.expanded = true&#10;scrollX = 0&#10;scrollY = 0&#10;zoomFactor = 1.0&#10;"/>
+        <reference referencedUin="design:node:::N9zn4d9dquyuv1hh896zk">
+            <property name="$shortcutReference" value=""/>
+            <property name="bounds" value="370,120,145,79"/>
+        </reference>
+        <reference referencedUin="design:node:::N-t1cvjldquyuqffb1oh01">
+            <property name="$shortcutReference" value=""/>
+            <property name="bounds" value="190,100,103,139"/>
+        </reference>
+    </view>
+    <node uin="N-t1cvjldquyuqffb1oh01">
+        <property name="$name" value="Subsystem1"/>
+        <property name="$metaclass" value="Subsystem"/>
+    </node>
+    <node uin="N9zn4d9dquyuv1hh896zk">
+        <property name="$name" value="Component1"/>
+        <property name="$metaclass" value="Component"/>
+    </node>
+</nodeSet>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vuobnmjdquy3e22a8d8fm">
+        <property name="$metaclass" value="Package Diagram"/>
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$defaultDiagram" value=""/>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.xml.types.SchemaNMToken">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.xml.types.SchemaInteger">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.xml.types.SchemaEntity">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.xml.types.SchemaLanguage">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.xml.types.SchemaFloat">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.xml.types.SchemaIDRef">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.xml.types.SchemaString">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.xml.types.SchemaInt">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.xml.types.SchemaType">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.xml.types.SchemaByte">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.xml.types.SchemaID">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.xml.types.SchemaNormalizedString">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.xml.types.SchemaName">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.xml.types.SchemaShort">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.xml.types.SchemaDouble">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.xml.types.SchemaDecimal">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.xml.types.SchemaBoolean">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.xml.types.SchemaDateTime">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.xml.types.SchemaNCName">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.xml.types.SchemaToken">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.xml.types.SchemaLong">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+    </view>
+</nodeSet>

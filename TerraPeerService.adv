@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!DOCTYPE jxta:PipeAdvertisement>
+<jxta:PipeAdvertisement xmlns:jxta="http://jxta.org">
+	<Id>urn:jxta:uuid-59616261646162614E5047205032503307D902959FDB4B6AA09BB4729AE3C83804</Id>
+	<Type>JxtaPropagate</Type>
+	<Name>JXTA_PIPEADV:GFORCE-X</Name>
+</jxta:PipeAdvertisement>

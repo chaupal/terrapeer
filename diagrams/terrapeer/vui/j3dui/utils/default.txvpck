@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vuobnmjdmz6d7w9-sec246">
+        <property name="$metaclass" value="Package Diagram"/>
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$defaultDiagram" value=""/>
+        <reference referencedUin="design:view:::Vuobnmjdquxvmmv-9hnsfs">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdmz8oq97-k6mhzf">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdmz7l5r5272845">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.j3dui.utils.Debug">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.j3dui.utils.Assert">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.j3dui.utils.ModelLoader">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.j3dui.utils.PickUtils">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.j3dui.utils.BoundsUtils">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.j3dui.utils.LoadUtils">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+    </view>
+</nodeSet>

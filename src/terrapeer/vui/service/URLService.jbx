@@ -1,0 +1,11 @@
+[PropertyInfo]
+service_id,String,false,false, , ,false,<default>
+serviceID,String,false,false, , ,true,<default>
+URL,URL,false,false, , ,true,<default>
+url,URL,false,false, , ,false,<default>
+serviceName,String,false,false,serviceName,serviceName,true,<default>
+[IconNames]
+
+
+
+

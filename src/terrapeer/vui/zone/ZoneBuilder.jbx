@@ -1,0 +1,23 @@
+[PropertyInfo]
+absDrag,InputDragSplitter,false,false, , ,false,<default>
+builderRepository,ZoneRepository,false,false, , ,false,<default>
+groupMgr,FeedbackGroupManager,false,false, , ,false,<default>
+myLog,TerraPeerLog,false,false, , ,false,<default>
+myZone,Zone,false,false, , ,true,<default>
+myZoneID,String,false,false, , ,false,<default>
+myZoneRoom,BasePlane,false,false, , ,false,<default>
+myZoneWorld,ZoneWorld,false,false, , ,false,<default>
+relDrag,InputDragSplitter,false,false, , ,false,<default>
+spaceCore,SpaceCore,false,false, , ,false,<default>
+spaceView_avat,AppView,false,false, , ,false,<default>
+spaceView_x,AppView,false,false, , ,false,<default>
+spaceWorld,AppWorld,false,false, , ,false,<default>
+trigger,StatusTrigger,false,false, , ,false,<default>
+viewSpltr,ViewChangeSplitter,false,false, , ,false,<default>
+zone_tree,UISceneTree,false,false, , ,false,<default>
+zoneExists,boolean,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

@@ -1,0 +1,9 @@
+[PropertyInfo]
+myRepository,ZoneRepository,false,false, , ,false,<default>
+zoneCount,int,false,false, , ,false,<default>
+zones,Vector,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

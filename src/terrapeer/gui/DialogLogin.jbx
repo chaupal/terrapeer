@@ -1,0 +1,21 @@
+[PropertyInfo]
+borderLayout1,BorderLayout,false,false, , ,false,<default>
+gridBagLayout1,GridBagLayout,false,false, , ,false,<default>
+jButton1,JButton,false,false, , ,false,<default>
+jButton2,JButton,false,false, , ,false,<default>
+jComboBox1,JComboBox,false,false, , ,false,<default>
+jLabel1,JLabel,false,false, , ,false,<default>
+jLabel2,JLabel,false,false, , ,false,<default>
+jLabel3,JLabel,false,false, , ,false,<default>
+jLabel4,JLabel,false,false, , ,false,<default>
+jPanelCenter,JPanel,false,false, , ,false,<default>
+jPanelNorth,JPanel,false,false, , ,false,<default>
+jPanelSouth,JPanel,false,false, , ,false,<default>
+jPasswordField1,JPasswordField,false,false, , ,false,<default>
+jTextField1,JTextField,false,false, , ,false,<default>
+panel1,JPanel,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

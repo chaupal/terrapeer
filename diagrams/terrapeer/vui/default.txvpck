@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vuobnmjdmz6cizy6sbv9w">
+        <property name="$metaclass" value="Package Diagram"/>
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$defaultDiagram" value=""/>
+        <property name="@__options" value="toolbar.group.Tools.expanded = true&#10;toolbar.buttonRunCount = 2&#10;toolbar.group.#DEFAULT.expanded = true&#10;toolbar.group.system.expanded = true&#10;scrollX = 0&#10;scrollY = 0&#10;zoomFactor = 1.0&#10;"/>
+        <reference referencedUin="design:view:::Vuobnmjdmz6d31k-n3f5tq">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="351,250,127,210"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdmz6d324ykn0ni">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="455,10,89,142"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdmz6cizy-26tbq8">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="352,10,83,142"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdmz6d31a-b6hd8w">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="230,250,101,142"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdmz6d31u-n1cb96">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="227,10,105,206"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.helpers.UISceneTree">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="10,290,200,136"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.test_world">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="10,10,197,238"/>
+        </reference>
+    </view>
+</nodeSet>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vuobnmjdmz71rtkauf0qn">
+        <property name="$metaclass" value="Package Diagram"/>
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$defaultDiagram" value=""/>
+        <property name="@__options" value="toolbar.group.Tools.expanded = true&#10;toolbar.buttonRunCount = 2&#10;toolbar.group.#DEFAULT.expanded = true&#10;toolbar.group.system.expanded = true&#10;profilesettings.profile.umlincolor.enabled = false&#10;Profiles_override = true&#10;profilesettings.profile.together60.enabled = false&#10;LayoutOptions_override = false&#10;scrollX = 0&#10;scrollY = 0&#10;zoomFactor = 1.0&#10;"/>
+        <reference referencedUin="design:view:::Vuobnmjdmz6cizy-1m8voe">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="50,30,142,219"/>
+        </reference>
+    </view>
+</nodeSet>

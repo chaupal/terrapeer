@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vuobnmjdmz6fbqk-xwui5n">
+        <property name="$metaclass" value="Package Diagram"/>
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$defaultDiagram" value=""/>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.helpers.WellKnownPeerLoader">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.helpers.PipeListener">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.helpers.RegistryVous">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+    </view>
+</nodeSet>

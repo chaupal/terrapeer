@@ -1,0 +1,26 @@
+[PropertyInfo]
+color,javax.vecmath.Color3f,false,false, , ,true,<default>
+depth,double,false,false, , ,true,<default>
+fourPoint_NE,Vector3d,false,false, , ,false,<default>
+fourPoint_NW,Vector3d,false,false, , ,false,<default>
+fourPoint_SE,Vector3d,false,false, , ,false,<default>
+fourPoint_SW,Vector3d,false,false, , ,false,<default>
+height,double,false,false, , ,true,<default>
+multiPoint,java.util.Vector,false,false, , ,false,<default>
+position,Vector3d,false,false, , ,true,<default>
+twoPoint_H,int,false,false,twoPoint_H,twoPoint_H,true,<default>
+twoPoint_NW,javax.vecmath.Vector3d,false,false, , ,false,<default>
+twoPoint_SE,javax.vecmath.Vector3d,false,false, , ,false,<default>
+twoPoint_V4d,Vector4d,false,false, , ,false,<default>
+twoPoint_W,int,false,false,twoPoint_W,twoPoint_W,true,<default>
+twoPoint_X1,int,false,false,twoPoint_X,twoPoint_X,true,<default>
+twoPoint_X2,int,false,false, , ,false,<default>
+twoPoint_Y1,int,false,false,twoPoint_Y,twoPoint_Y,true,<default>
+twoPoint_Y2,int,false,false, , ,false,<default>
+zone_BorderType,int,false,false, , ,true,<default>
+zone_GeoType,int,false,false, , ,true,<default>
+[IconNames]
+
+
+
+

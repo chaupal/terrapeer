@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TerraPeer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\liu\_g\projects\TerraPeer\project\terrapeer_v1.xsd">
+	<ID>String</ID>
+	<Version>Text</Version>
+	<LastUpdated>2001-12-17T09:30:47-05:00</LastUpdated>
+	<Name>String</Name>
+	<Zone>
+		<ID>A000</ID>
+		<Version>Text</Version>
+		<LastUpdated>2001-12-17T09:30:47-05:00</LastUpdated>
+		<Name>My Zone A000</Name>
+		<Description>The A Zone</Description>
+		<Geometry>
+			<Position X="20" Y="0" Z="-20"/>
+			<Spatial width="10" height="10"/>
+		</Geometry>
+		<BaseObject>
+			<ObjectID>String</ObjectID>
+			<BBTYPE>4</BBTYPE>
+			<Name>String</Name>
+			<Description>String</Description>
+			<Position X="0" Y="0" Z="0"/>
+			<LocalFileName>String</LocalFileName>
+		</BaseObject>
+		<ServiceObject>
+			<ID>String</ID>
+			<BBTYPE>0</BBTYPE>
+			<Name>String</Name>
+			<Description>String</Description>
+			<Position X="0" Y="0" Z="0"/>
+			<LocalFileName>String</LocalFileName>
+			<Web_URL>String</Web_URL>
+			<FTP_URL>String</FTP_URL>
+			<BinaryContent>R0lGODlhcgGSALMAAAQCAEMmCZtuMFQxDS8b</BinaryContent>
+		</ServiceObject>
+	</Zone>
+	<ZoneWorld>
+		<Zone>
+			<ID>A001</ID>
+			<Version>Text</Version>
+			<LastUpdated>2001-12-17T09:30:47-05:00</LastUpdated>
+			<Name>Zone A001</Name>
+			<Description>String</Description>
+			<Geometry>
+				<Position X="0" Y="0" Z="-30"/>
+				<Spatial width="12" height="6"/>
+			</Geometry>
+			<BaseObject>
+				<ObjectID>String</ObjectID>
+				<BBTYPE>1</BBTYPE>
+				<Name>String</Name>
+				<Description>String</Description>
+				<Position X="0" Y="0" Z="0"/>
+				<LocalFileName>String</LocalFileName>
+			</BaseObject>
+			<ServiceObject>
+				<ID>String</ID>
+				<BBTYPE>0</BBTYPE>
+				<Name>String</Name>
+				<Description>String</Description>
+				<Position X="0" Y="0" Z="0"/>
+				<LocalFileName>String</LocalFileName>
+				<Web_URL>String</Web_URL>
+				<FTP_URL>String</FTP_URL>
+				<BinaryContent>R0lGODlhcgGSALMAAAQCAEMmCZtuMFQxDS8b</BinaryContent>
+			</ServiceObject>
+		</Zone>
+		<Zone>
+			<ID>A002</ID>
+			<Version>V1.0</Version>
+			<LastUpdated>2001-12-17T09:30:47-05:00</LastUpdated>
+			<Name>Zone A002</Name>
+			<Description>Some other zone in the repository.</Description>
+			<Geometry>
+				<Position X="-20" Y="0" Z="0"/>
+				<Spatial width="20" height="6"/>
+			</Geometry>
+			<BaseObject>
+				<ObjectID>String</ObjectID>
+				<BBTYPE>2</BBTYPE>
+				<Name>String</Name>
+				<Description>String</Description>
+				<Position X="0" Y="0" Z="0"/>
+				<LocalFileName>String</LocalFileName>
+			</BaseObject>
+			<BaseObject>
+				<ObjectID>String</ObjectID>
+				<BBTYPE>2</BBTYPE>
+				<Name>String</Name>
+				<Description>String</Description>
+				<Position X="2" Y="0" Z="0"/>
+				<LocalFileName>String</LocalFileName>
+			</BaseObject>
+			<BaseObject>
+				<ObjectID>String</ObjectID>
+				<BBTYPE>2</BBTYPE>
+				<Name>String</Name>
+				<Description>String</Description>
+				<Position X="4" Y="0" Z="0"/>
+				<LocalFileName>String</LocalFileName>
+			</BaseObject>
+		</Zone>
+		<Zone>
+			<ID>A003</ID>
+			<Version>Text</Version>
+			<LastUpdated>2001-12-17T09:30:47-05:00</LastUpdated>
+			<Name>Zone A003</Name>
+			<Description>String</Description>
+			<Geometry>
+				<Position X="20" Y="0" Z="20"/>
+				<Spatial width="5" height="8"/>
+			</Geometry>
+			<ServiceObject>
+				<ID>TERRA-Z000ABC002-B-1-0</ID>
+				<BBTYPE>1</BBTYPE>
+				<Name>Party Object 1</Name>
+				<Description>This is the Party Object 0</Description>
+				<Position X="0" Y="0" Z="0"/>
+				<LocalFileName>String</LocalFileName>
+				<Web_URL>String</Web_URL>
+				<FTP_URL>String</FTP_URL>
+				<BinaryContent>R0lGODlhcgGSALMAAAQCAEMmCZtuMFQxDS8b</BinaryContent>
+			</ServiceObject>
+			<ServiceObject>
+				<ID>TERRA-Z000ABC002-B-4-1</ID>
+				<BBTYPE>1</BBTYPE>
+				<Name>Party Object 2</Name>
+				<Description>This is the Party Object 1</Description>
+				<Position X="3" Y="0" Z="0"/>
+				<LocalFileName>String</LocalFileName>
+				<Web_URL>String</Web_URL>
+				<FTP_URL>String</FTP_URL>
+				<BinaryContent>R0lGODlhcgGSALMAAAQCAEMmCZtuMFQxDS8b</BinaryContent>
+			</ServiceObject>
+			<ServiceObject>
+				<ID>TERRA-Z000ABC002-B-2-2</ID>
+				<BBTYPE>1</BBTYPE>
+				<Name>Party Object 1</Name>
+				<Description>This is the Party Object 2</Description>
+				<Position X="6" Y="0" Z="0"/>
+				<LocalFileName>String</LocalFileName>
+				<Web_URL>String</Web_URL>
+				<FTP_URL>String</FTP_URL>
+				<BinaryContent>R0lGODlhcgGSALMAAAQCAEMmCZtuMFQxDS8b</BinaryContent>
+			</ServiceObject>
+		</Zone>
+</ZoneWorld>
+</TerraPeer>

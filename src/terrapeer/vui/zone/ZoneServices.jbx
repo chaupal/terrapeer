@@ -1,0 +1,11 @@
+[PropertyInfo]
+serviceCount,int,false,false,serviceCount,serviceCount,true,<default>
+myHTTPServices,java.util.Vector,false,false,myHTTPServices,myHTTPServices,true,<default>
+myFTPServices,java.util.Vector,false,false,myFTPServices,myFTPServices,true,<default>
+myBizServices,java.util.Vector,false,false,myBizServices,myBizServices,true,<default>
+myURLServices,java.util.Vector,false,false,myURLServices,myURLServices,true,<default>
+[IconNames]
+
+
+
+

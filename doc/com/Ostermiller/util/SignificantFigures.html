@@ -1,0 +1,516 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML><!--JBuilder QuickDoc-->
+<HEAD>
+<TITLE>Class com.Ostermiller.util.SignificantFigures</TITLE><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+</HEAD>
+<BODY>
+
+<H2>
+<FONT SIZE="-1">com.Ostermiller.util</FONT>
+<BR>Class SignificantFigures</H2>
+<DL>
+<DT>public class <B>SignificantFigures</B><DT>extends Number
+</DL>
+<DL><DD>A number with an associated number of significant figures. This class handles parsing numbers, determining the number of significant figures, adjusting the number of significant figures (including scientific rounding), and displaying the number. More information about this class is available from <a target="_top" href="http://ostermiller.org/utils/SignificantFigures.html">ostermiller.org</a>. <p> When parsing a number to determine the number of significant figures, these rules are used: <ul> <li>Non-zero digits are always significant.</li> <li>All zeros between other significant digits or between a significant digit and the decimal point are significant.</li> <li>All trailing zeros to the right of the decimal point are significant.</li> <li>If the number is contains no digits other than zero, every zero is significant.</li> </ul> <p> When rounding a number the following rules are used: <ul> <li>If the greatest insignificant digit is less than five, round down.</li> <li>If the greatest insignificant digit is greater than five, round up.</li> <li>If the greatest insignificant digit is five and followed by some non-zero digit, round up.</li> <li>If the greatest insignificant digit is five and followed only by zeros, and the least significant digit is odd, round up.</li> <li>If the greatest insignificant digit is five and followed only by zeros, and the least significant digit is even, round down.</li> </ul> <p> Example of using this class to multiply numbers and display the result with the proper number of significant figures:<br> <pre> String[] args = {"1.0", "2.0", ...}
+SignificantFigures number;
+int sigs = Integer.MAX_VALUE;
+double result = 1D;
+for (int i=0; i&lt;args.length; i++){
+&nbsp;   number = new SignificantFigures(args[i]);
+&nbsp;   sigs = Math.min(sigs, number.getNumberSignificantFigures());
+&nbsp;   result *= number.doubleValue();
+}
+number = new SignificantFigures(result);
+number.setNumberSignificantFigures(sigs);
+System.out.println(number);</pre> <p> Example of using this class to add numbers and display the result with the proper number of significant figures:<br> <pre> String[] args = {"1.0", "2.0", ...}
+SignificantFigures number;
+int lsd = Integer.MIN_VALUE;
+int msd = Integer.MIN_VALUE;
+double result = 0D;
+for (int i=0; i&lt;args.length; i++){
+&nbsp;   number = new SignificantFigures(args[i]);
+&nbsp;   lsd = Math.max(lsd, number.getLSD());
+&nbsp;   msd = Math.max(msd, number.getMSD());
+&nbsp;   result += number.doubleValue();
+}
+number = new SignificantFigures(result);
+number.setLMSD(lsd, msd);
+System.out.println(number);</pre><DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Author:</B><DD>Stephen Ostermiller http://ostermiller.org/contact.pl?regarding=Java+Utilities</DD>
+<DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<TABLE BORDER="1" CELLPADDING="3" CELLSPACING="0" WIDTH="100%">
+<TR BGCOLOR="#CCCCFF"><TD COLSPAN=1><FONT SIZE="+2">
+<B>Field Detail</B>
+</FONT></TD></TR></TABLE>
+
+<H3>original</H3>
+<PRE>
+private String <B>original</B></PRE>
+<DL><DD>In the case the a number could not be parsed, the original is stored for toString purposes.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>digits</H3>
+<PRE>
+private StringBuffer <B>digits</B></PRE>
+<DL><DD>Buffer of the significant digits.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>mantissa</H3>
+<PRE>
+private int <B>mantissa</B></PRE>
+<DL><DD>The exponent of the digits if a decimal place were inserted after the first digit.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>sign</H3>
+<PRE>
+private boolean <B>sign</B></PRE>
+<DL><DD>positive if true, negative if false.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>isZero</H3>
+<PRE>
+private boolean <B>isZero</B></PRE>
+<DL><DD>True if this number has no non-zero digits.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>INITIAL</H3>
+<PRE>
+private static final int <B>INITIAL</B></PRE>
+<DL><DD>Parsing state: Initial state before anything read.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>LEADZEROS</H3>
+<PRE>
+private static final int <B>LEADZEROS</B></PRE>
+<DL><DD>Parsing state: State in which a possible sign and possible leading zeros have been read.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>MIDZEROS</H3>
+<PRE>
+private static final int <B>MIDZEROS</B></PRE>
+<DL><DD>Parsing state: State in which a possible sign and at least one non-zero digit has been read followed by some number of zeros. The decimal place has no been encountered yet.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>DIGITS</H3>
+<PRE>
+private static final int <B>DIGITS</B></PRE>
+<DL><DD>Parsing state: State in which a possible sign and at least one non-zero digit has been read. The decimal place has no been encountered yet.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>LEADZEROSDOT</H3>
+<PRE>
+private static final int <B>LEADZEROSDOT</B></PRE>
+<DL><DD>Parsing state: State in which only a possible sign, leading zeros, and a decimal point have been encountered.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>DIGITSDOT</H3>
+<PRE>
+private static final int <B>DIGITSDOT</B></PRE>
+<DL><DD>Parsing state: State in which a possible sign, at least one nonzero digit and a decimal point have been encountered.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>MANTISSA</H3>
+<PRE>
+private static final int <B>MANTISSA</B></PRE>
+<DL><DD>Parsing state: State in which the exponent symbol 'E' has been encountered.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>MANTISSADIGIT</H3>
+<PRE>
+private static final int <B>MANTISSADIGIT</B></PRE>
+<DL><DD>Parsing state: State in which the exponent symbol 'E' has been encountered followed by a possible sign or some number of digits.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<TABLE BORDER="1" CELLPADDING="3" CELLSPACING="0" WIDTH="100%">
+<TR BGCOLOR="#CCCCFF"><TD COLSPAN=1><FONT SIZE="+2">
+<B>Constructor Detail</B>
+</FONT></TD></TR></TABLE>
+
+<H3>SignificantFigures</H3>
+<PRE>
+public <B>SignificantFigures</B>(String&nbsp;number)</PRE>
+<DL><DD>Create a SignificantFigures object from a String representation of a number.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Parameters:</B><DD><CODE>number</CODE> - String representation of the number.</DD>
+<DT><B>Throws:</B><DD><CODE>NumberFormatException</CODE> - if the String is not a valid number.</DD>
+<DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>SignificantFigures</H3>
+<PRE>
+public <B>SignificantFigures</B>(byte&nbsp;number)</PRE>
+<DL><DD>Create a SignificantFigures object from a byte.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Parameters:</B><DD><CODE>number</CODE> - an 8 bit integer.</DD>
+<DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>SignificantFigures</H3>
+<PRE>
+public <B>SignificantFigures</B>(short&nbsp;number)</PRE>
+<DL><DD>Create a SignificantFigures object from a short.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Parameters:</B><DD><CODE>number</CODE> - a 16 bit integer.</DD>
+<DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>SignificantFigures</H3>
+<PRE>
+public <B>SignificantFigures</B>(int&nbsp;number)</PRE>
+<DL><DD>Create a SignificantFigures object from an integer.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Parameters:</B><DD><CODE>number</CODE> - a 32 bit integer.</DD>
+<DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>SignificantFigures</H3>
+<PRE>
+public <B>SignificantFigures</B>(long&nbsp;number)</PRE>
+<DL><DD>Create a SignificantFigures object from a long.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Parameters:</B><DD><CODE>number</CODE> - a 64 bit integer.</DD>
+<DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>SignificantFigures</H3>
+<PRE>
+public <B>SignificantFigures</B>(float&nbsp;number)</PRE>
+<DL><DD>Create a SignificantFigures object from a float.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Parameters:</B><DD><CODE>number</CODE> - a 32 bit floating point.</DD>
+<DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>SignificantFigures</H3>
+<PRE>
+public <B>SignificantFigures</B>(double&nbsp;number)</PRE>
+<DL><DD>Create a SignificantFigures object from a double.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Parameters:</B><DD><CODE>number</CODE> - a 64 bit floating point.</DD>
+<DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>SignificantFigures</H3>
+<PRE>
+public <B>SignificantFigures</B>(Number&nbsp;number)</PRE>
+<DL><DD>Create a SignificantFigures object from a java number such as a BigDecimal, BigInteger, Byte, Double, Float, Integer, Long, or Short.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Parameters:</B><DD><CODE>number</CODE> - a number.</DD>
+<DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<TABLE BORDER="1" CELLPADDING="3" CELLSPACING="0" WIDTH="100%">
+<TR BGCOLOR="#CCCCFF"><TD COLSPAN=1><FONT SIZE="+2">
+<B>Method Detail</B>
+</FONT></TD></TR></TABLE>
+
+<H3>getNumberSignificantFigures</H3>
+<PRE>
+public int <B>getNumberSignificantFigures</B>()</PRE>
+<DL><DD>Get the number of significant digits. <p> If this number is not a number or infinity zero will be returned.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Returns:</B><DD>the number of significant digits in this number.</DD>
+<DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>setLSD</H3>
+<PRE>
+public SignificantFigures <B>setLSD</B>(int&nbsp;place)</PRE>
+<DL><DD>Adjust the number of significant figures such that the least significant digit is at the given place. This method may add significant zeros to the end of this number, or remove significant digits from this number. <p> It is possible to remove all significant digits from this number which will cause the string representation of this number to become "NaN". This could become a problem if you are adding numbers and the result is close to zero. All of the significant digits may get removed, even though the result could be zero with some number of significant digits. Its is safes to use the setLMSD() method which will make a zero with the appropriate number of significant figures in such instances. <p> This method has no effect if this number is not a number or infinity.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Parameters:</B><DD><CODE>place</CODE> - the desired place of the least significant digit.</DD>
+<DT><B>Returns:</B><DD>this number.</DD>
+<DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>setLMSD</H3>
+<PRE>
+public SignificantFigures <B>setLMSD</B>(int&nbsp;leastPlace,
+                                  int&nbsp;mostPlace)</PRE>
+<DL><DD>Adjust the number of significant figures such that the leas significant digit is at the given place. This method may add significant zeros to the end of this number, or remove significant digits from this number. <p> If all significant digits are removed from this number by truncating to the least significant place, a zero will be created with significant figures from the least to most significant places. <p> This method has no effect if this number is not a number or infinity.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Parameters:</B><DD><CODE>leastPlace</CODE> - the desired place of the least significant digit or Integer.MIN_VALUE to ignore.</DD>
+<DD><CODE>mostPlace</CODE> - the desired place of the most significant digit or Integer.MIN_VALUE to ignore.</DD>
+<DT><B>Returns:</B><DD>this number</DD>
+<DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>getLSD</H3>
+<PRE>
+public int <B>getLSD</B>()</PRE>
+<DL><DD>Get the decimal place of the least significant digit. <p> If this number is not a number or infinity Integer.MIN_VALUE will be returned.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Returns:</B><DD>the decimal place of the least significant digit.</DD>
+<DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>getMSD</H3>
+<PRE>
+public int <B>getMSD</B>()</PRE>
+<DL><DD>Get the decimal place of the most significant digit. <p> If this number is not a number or infinity Integer.MIN_VALUE will be returned.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Returns:</B><DD>the decimal place of the least significant digit.</DD>
+<DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>toString</H3>
+<PRE>
+public String <B>toString</B>()</PRE>
+<DL><DD>Formats this number. If the number is less than 10^-3 or greater than or equal to 10^7, or the number might have an ambiguous number of significant figures, scientific notation will be used. <p> A string such as "NaN" or "Infinity" may be returned by this method.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Returns:</B><DD>representation of this number.</DD>
+<DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>toScientificNotation</H3>
+<PRE>
+public String <B>toScientificNotation</B>()</PRE>
+<DL><DD>Formats this number in scientific notation. <p> A string such as "NaN" or "Infinity" may be returned by this method.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Returns:</B><DD>representation of this number in scientific notation.</DD>
+<DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>parse</H3>
+<PRE>
+private void <B>parse</B>(String&nbsp;number)</PRE>
+<DL><DD>Parse a number from the given string. A valid number has an optional sign, some digits with an optional decimal point, and an optional scientific notation part consisting of an 'E' followed by an optional sign, followed by some digits.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Parameters:</B><DD><CODE>number</CODE> - String representation of a number.</DD>
+<DT><B>Throws:</B><DD><CODE>NumberFormatException</CODE> - if the string is not a valid number.</DD>
+<DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>setNumberSignificantFigures</H3>
+<PRE>
+public SignificantFigures <B>setNumberSignificantFigures</B>(int&nbsp;significantFigures)</PRE>
+<DL><DD>Adjust the number of digits in the number. Pad the tail with zeros if too short, round the number according to scientific rounding if too long, leave alone if just right. <p> This method has no effect if this number is not a number or infinity.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Parameters:</B><DD><CODE>significantFigures</CODE> - desired number of significant figures.</DD>
+<DT><B>Returns:</B><DD>This number.</DD>
+<DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>byteValue</H3>
+<PRE>
+public byte <B>byteValue</B>()</PRE>
+<DL><DD>Returns the value of this number as a byte.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Returns:</B><DD>the numeric value represented by this object after conversion to type byte.</DD>
+<DT><B>Throws:</B><DD><CODE>NumberFormatException</CODE> - if this number cannot be converted to a byte.</DD>
+<DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>doubleValue</H3>
+<PRE>
+public double <B>doubleValue</B>()</PRE>
+<DL><DD>Returns the value of this number as a double.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Returns:</B><DD>the numeric value represented by this object after conversion to type double.</DD>
+<DT><B>Throws:</B><DD><CODE>NumberFormatException</CODE> - if this number cannot be converted to a double.</DD>
+<DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>floatValue</H3>
+<PRE>
+public float <B>floatValue</B>()</PRE>
+<DL><DD>Returns the value of this number as a float.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Returns:</B><DD>the numeric value represented by this object after conversion to type float.</DD>
+<DT><B>Throws:</B><DD><CODE>NumberFormatException</CODE> - if this number cannot be converted to a float.</DD>
+<DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>intValue</H3>
+<PRE>
+public int <B>intValue</B>()</PRE>
+<DL><DD>Returns the value of this number as a int.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Returns:</B><DD>the numeric value represented by this object after conversion to type int.</DD>
+<DT><B>Throws:</B><DD><CODE>NumberFormatException</CODE> - if this number cannot be converted to a int.</DD>
+<DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>longValue</H3>
+<PRE>
+public long <B>longValue</B>()</PRE>
+<DL><DD>Returns the value of this number as a long.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Returns:</B><DD>the numeric value represented by this object after conversion to type long.</DD>
+<DT><B>Throws:</B><DD><CODE>NumberFormatException</CODE> - if this number cannot be converted to a long.</DD>
+<DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>shortValue</H3>
+<PRE>
+public short <B>shortValue</B>()</PRE>
+<DL><DD>Returns the value of this number as a short.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Returns:</B><DD>the numeric value represented by this object after conversion to type short.</DD>
+<DT><B>Throws:</B><DD><CODE>NumberFormatException</CODE> - if this number cannot be converted to a short.</DD>
+<DT><B>Since:</B><DD>ostermillerutils 1.00.00</DD>
+</DL>
+<HR>
+
+<H3>format</H3>
+<PRE>
+public static String <B>format</B>(byte&nbsp;number,
+                            int&nbsp;significantFigures)</PRE>
+<DL><DD>Convenience method to display a number with the correct significant digits.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Parameters:</B><DD><CODE>number</CODE> - the number to display</DD>
+<DD><CODE>significantFigures</CODE> - the number of significant figures to display.</DD>
+<DT><B>Since:</B><DD>ostermillerutils 1.02.07</DD>
+</DL>
+<HR>
+
+<H3>format</H3>
+<PRE>
+public static String <B>format</B>(double&nbsp;number,
+                            int&nbsp;significantFigures)</PRE>
+<DL><DD>Convenience method to display a number with the correct significant digits.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Parameters:</B><DD><CODE>number</CODE> - the number to display</DD>
+<DD><CODE>significantFigures</CODE> - the number of significant figures to display.</DD>
+<DT><B>Since:</B><DD>ostermillerutils 1.02.07</DD>
+</DL>
+<HR>
+
+<H3>format</H3>
+<PRE>
+public static String <B>format</B>(float&nbsp;number,
+                            int&nbsp;significantFigures)</PRE>
+<DL><DD>Convenience method to display a number with the correct significant digits.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Parameters:</B><DD><CODE>number</CODE> - the number to display</DD>
+<DD><CODE>significantFigures</CODE> - the number of significant figures to display.</DD>
+<DT><B>Since:</B><DD>ostermillerutils 1.02.07</DD>
+</DL>
+<HR>
+
+<H3>format</H3>
+<PRE>
+public static String <B>format</B>(int&nbsp;number,
+                            int&nbsp;significantFigures)</PRE>
+<DL><DD>Convenience method to display a number with the correct significant digits.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Parameters:</B><DD><CODE>number</CODE> - the number to display</DD>
+<DD><CODE>significantFigures</CODE> - the number of significant figures to display.</DD>
+<DT><B>Since:</B><DD>ostermillerutils 1.02.07</DD>
+</DL>
+<HR>
+
+<H3>format</H3>
+<PRE>
+public static String <B>format</B>(long&nbsp;number,
+                            int&nbsp;significantFigures)</PRE>
+<DL><DD>Convenience method to display a number with the correct significant digits.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Parameters:</B><DD><CODE>number</CODE> - the number to display</DD>
+<DD><CODE>significantFigures</CODE> - the number of significant figures to display.</DD>
+<DT><B>Since:</B><DD>ostermillerutils 1.02.07</DD>
+</DL>
+<HR>
+
+<H3>format</H3>
+<PRE>
+public static String <B>format</B>(Number&nbsp;number,
+                            int&nbsp;significantFigures)</PRE>
+<DL><DD>Convenience method to display a number with the correct significant digits.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Parameters:</B><DD><CODE>number</CODE> - the number to display</DD>
+<DD><CODE>significantFigures</CODE> - the number of significant figures to display.</DD>
+<DT><B>Since:</B><DD>ostermillerutils 1.02.07</DD>
+</DL>
+<HR>
+
+<H3>format</H3>
+<PRE>
+public static String <B>format</B>(short&nbsp;number,
+                            int&nbsp;significantFigures)</PRE>
+<DL><DD>Convenience method to display a number with the correct significant digits.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Parameters:</B><DD><CODE>number</CODE> - the number to display</DD>
+<DD><CODE>significantFigures</CODE> - the number of significant figures to display.</DD>
+<DT><B>Since:</B><DD>ostermillerutils 1.02.07</DD>
+</DL>
+<HR>
+
+<H3>format</H3>
+<PRE>
+public static String <B>format</B>(String&nbsp;number,
+                            int&nbsp;significantFigures)</PRE>
+<DL><DD>Convenience method to display a number with the correct significant digits.<DL><DD></DD></DL></DD>
+</DL>
+<DL><DT><B>Parameters:</B><DD><CODE>number</CODE> - the number to display</DD>
+<DD><CODE>significantFigures</CODE> - the number of significant figures to display.</DD>
+<DT><B>Throws:</B><DD><CODE>NumberFormatException</CODE> - if the String is not a valid number.</DD>
+<DT><B>Since:</B><DD>ostermillerutils 1.02.07</DD>
+</DL>
+<HR>
+
+</BODY>
+</HTML>

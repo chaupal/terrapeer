@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vwy9b8idquyrrllljue1j">
+        <property name="$metaclass" value="State Diagram"/>
+        <property name="$description" value=""/>
+        <property name="@__options" value="toolbar.group.Tools.expanded = true&#10;toolbar.buttonRunCount = 2&#10;toolbar.group.#DEFAULT.expanded = true&#10;toolbar.group.system.expanded = true&#10;scrollX = 0&#10;scrollY = 0&#10;zoomFactor = 1.0&#10;"/>
+        <reference referencedUin="design:node:::N1br2i9dquys20l-x3zj5e">
+            <property name="$shortcutReference" value=""/>
+            <property name="bounds" value="270,90,54,53"/>
+        </reference>
+        <reference referencedUin="design:node:::N-1ad50odquyry1b-hyujry">
+            <property name="$shortcutReference" value=""/>
+            <property name="bounds" value="240,180,80,6"/>
+            <property name="bounds_setted_by_user" value="true"/>
+        </reference>
+    </view>
+    <node uin="N-1ad50odquyry1b-hyujry">
+        <property name="$orientation" value="vertical"/>
+        <property name="$name" value="SyncBar1"/>
+        <property name="$metaclass" value="Synchronization Bar"/>
+    </node>
+    <node uin="N1br2i9dquys20l-x3zj5e">
+        <property name="$name" value="State1"/>
+        <property name="$metaclass" value="State"/>
+    </node>
+</nodeSet>

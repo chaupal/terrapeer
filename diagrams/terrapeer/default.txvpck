@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vuobnmjdmz6cizy-1m8voe">
+        <property name="$metaclass" value="Package Diagram"/>
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$defaultDiagram" value=""/>
+        <property name="@__options" value="toolbar.group.Tools.expanded = true&#10;toolbar.buttonRunCount = 2&#10;toolbar.group.#DEFAULT.expanded = true&#10;toolbar.group.system.expanded = true&#10;scrollX = 0&#10;scrollY = 0&#10;zoomFactor = 1.0&#10;"/>
+        <reference referencedUin="design:view:::Vuobnmjdquwifjzywk0dj">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="370,300,83,72"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdmz6cizy-3qbrb4">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="130,360,83,72"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdmz6cizyypzwl8">
+            <property name="$shortcutReference" value="true"/>
+            <property name="@hideClasses" value=""/>
+            <property name="bounds" value="10,80,83,91"/>
+        </reference>
+        <reference referencedUin="design:view:::Vwy9b8idquyrrllljue1j">
+            <property name="$shortcutReference" value=""/>
+            <property name="bounds" value="437,139,130,117"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdmz6cizy6sbv9w">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="10,220,83,171"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdmz6cizyejxjug">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="260,240,83,181"/>
+        </reference>
+        <reference referencedUin="design:view:::V-7nxkkpdquysvzxxhhnjj">
+            <property name="$shortcutReference" value=""/>
+            <property name="bounds" value="437,391,129,101"/>
+        </reference>
+        <reference referencedUin="design:view:::V4mw90cdquypvmrnaym6j">
+            <property name="$shortcutReference" value=""/>
+            <property name="bounds" value="241,429,124,133"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdmz6cizy-424ppl">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="130,140,117,187"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.TerraPeerLogInterface">
+            <property name="$shortcutReference" value="true"/>
+            <property name="@hideAttributes" value=""/>
+            <property name="@hideProperties" value=""/>
+            <property name="@hideOperations" value=""/>
+            <property name="@$hidden" value="true"/>
+            <property name="bounds" value="690,170,158,75"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vars">
+            <property name="$shortcutReference" value="true"/>
+            <property name="@hideAttributes" value=""/>
+            <property name="bounds" value="430,10,109,110"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.TerraPeerLog">
+            <property name="$shortcutReference" value="true"/>
+            <property name="@hideAttributes" value=""/>
+            <property name="@hideOperations" value=""/>
+            <property name="@hideProperties" value=""/>
+            <property name="bounds" value="280,50,119,104"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.TerraPeerLog:theLog">
+                <property name="@$hidden" value="true"/>
+                <property name="sourceAnchor" value="759,162"/>
+                <property name="bendpoints" value="771,162,771,176,757,176"/>
+                <property name="targetAnchor" value="757,164"/>
+                <property name="bounds_setted_by_user" value="true"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.TerraManager">
+            <property name="$shortcutReference" value="true"/>
+            <property name="@hideOperations" value=""/>
+            <property name="@hideAttributes" value=""/>
+            <property name="bounds" value="150,40,93,46"/>
+            <reference referencedUin="jdt:l_ast:src:terrapeer.TerraManager:myLog">
+                <property name="@$hidden" value="true"/>
+                <property name="sourceAnchor" value="603,78"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="640,78"/>
+            </reference>
+        </reference>
+    </view>
+</nodeSet>

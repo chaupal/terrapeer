@@ -1,0 +1,90 @@
+#VRML V2.0 utf8
+#
+# Simple VRML model of a tower
+# 
+# Jeff Ash
+#
+# November 1997
+#
+Group
+   {
+   children
+      [
+      # Draw bottom section
+         Shape
+            {
+            appearance DEF Aqua Appearance
+               {
+               material Material
+                  {
+                  diffuseColor 0.0 0.4 0.6
+                  shininess 0.5
+                  }
+               }
+            geometry Cylinder
+               {
+               height 2.0
+               radius 2.0
+               }
+            },
+      # Draw middle section
+         Transform
+            {
+            translation 0.0 1.75 0.0
+            children
+            Shape
+               {
+               appearance USE Aqua
+               geometry Cylinder
+                  {
+                  height 1.5
+                  radius 1.5
+                  }
+               }
+            }
+      # Draw top section
+         Transform
+            {
+            translation 0.0 3.0 0.0
+            children
+            Shape
+               {
+               appearance USE Aqua
+               geometry Cylinder
+                  {
+                  height 1.0
+                  radius 1.0
+                  }
+               }
+            }
+      # Draw mast
+         Transform
+            {
+            translation 0.0 5.0 0.0
+            children
+            Shape
+               {
+               appearance USE Aqua
+               geometry Cylinder
+                  {
+                  height 3.0
+                  radius 0.1
+                  }
+               }
+            }
+      # Draw ball
+         Transform
+            {
+            translation 0.0 7.0 0.0
+            children
+            Shape
+               {
+               appearance USE Aqua
+               geometry Sphere
+                  {
+                  radius 0.5
+                  }
+               }
+            }
+      ]
+   }

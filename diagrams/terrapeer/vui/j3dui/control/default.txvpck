@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vuobnmjdmz6d7vp-jvctg9">
+        <property name="$metaclass" value="Package Diagram"/>
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$defaultDiagram" value=""/>
+        <reference referencedUin="design:view:::Vuobnmjdmziy45o-bei6xi">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdquxvlsk-szq10u">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdmz8oq7j-68uqoj">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.j3dui.control.EnableTrigger">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.j3dui.control.DrmRotationMapper">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.j3dui.control.AbsoluteDragger">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.j3dui.control.EnableSplitter">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.j3dui.control.DirectMapper">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.j3dui.control.RelativeDragger">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.j3dui.control.EnableFilter">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.j3dui.control.EnableTarget">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.j3dui.control.WrmTranslationMapper">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.j3dui.control.DrmTranslationMapper">
+            <property name="$shortcutReference" value="true"/>
+        </reference>
+    </view>
+</nodeSet>

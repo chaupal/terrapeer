@@ -1,0 +1,13 @@
+[PropertyInfo]
+settleState,int,false,false,SettleState,SettleState,true,<default>
+lastSettleDate,java.util.Calendar,false,false,settleDate,settleDate,true,<default>
+lastBuildDate,java.util.Calendar,false,false,buildDate,buildDate,true,<default>
+lastMovedDate,java.util.Calendar,false,false,lastMovedDate,lastMovedDate,true,<default>
+lastShareDate,java.util.Calendar,false,false,shareDate,shareDate,true,<default>
+moveCount,int,false,false,moveCount,moveCount,true,<default>
+lastReservationDate,java.util.Calendar,false,false,reservationDate,reservationDate,true,<default>
+[IconNames]
+
+
+
+

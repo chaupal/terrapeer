@@ -1,0 +1,20 @@
+#VRML V1.0 ascii
+
+# Escher's 3 cubes
+
+Material { diffuseColor 0 1 0 }
+
+Rotation { rotation 0 1 0 .4 }
+
+Separator {
+ Rotation { rotation 1 0 0 .785398 }
+ Cube { }
+}
+Separator {
+ Rotation { rotation 0 1 0 .785398 }
+ Cube { }
+}
+Separator {
+ Rotation { rotation 0 0 1 .785398 }
+ Cube { }
+}

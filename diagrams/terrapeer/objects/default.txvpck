@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vuobnmjdmz6cizyejxjug">
+        <property name="$metaclass" value="Package Diagram"/>
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$defaultDiagram" value=""/>
+        <property name="@__options" value="toolbar.group.Tools.expanded = true&#10;toolbar.buttonRunCount = 2&#10;toolbar.group.#DEFAULT.expanded = true&#10;toolbar.group.system.expanded = true&#10;scrollX = 0&#10;scrollY = 0&#10;zoomFactor = 1.0&#10;"/>
+        <reference referencedUin="design:view:::Vuobnmjdmz6eilu-hyfnwk">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="10,250,83,72"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdmz6eime-x1d3jx">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="113,130,83,72"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdmz6eilk19c7l8">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="10,130,83,72"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdmz6eila-3k8tns">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="216,10,83,72"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdmz6eimo-sxpf1k">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="113,10,83,72"/>
+        </reference>
+        <reference referencedUin="design:view:::Vuobnmjdmz6eilu-hean3j">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="10,10,83,72"/>
+        </reference>
+    </view>
+</nodeSet>

@@ -1,0 +1,35 @@
+[PropertyInfo]
+cl_bg,Color,false,false, , ,false,<default>
+cl_gridlines,Color,false,false, , ,false,<default>
+cl_label_zone,Color,false,false, , ,false,<default>
+cl_labels,Color,false,false, , ,false,<default>
+cl_myzone,Color,false,false, , ,false,<default>
+cl_myzone_click,Color,false,false, , ,false,<default>
+cl_myzone_sel,Color,false,false, , ,false,<default>
+cl_zone,Color,false,false, , ,false,<default>
+cl_zone_click,Color,false,false, , ,false,<default>
+cl_zone_sel,Color,false,false, , ,false,<default>
+coord_step,int,false,false, , ,false,<default>
+curr_xcoord,int,false,false, , ,false,<default>
+curr_ycoord,int,false,false, , ,false,<default>
+currZoneCoordsX,int,false,false, , ,true,<default>
+currZoneCoordsY,int,false,false, , ,true,<default>
+d,Dimension,false,false, , ,false,<default>
+gridspace_pixel,int,false,false, , ,false,<default>
+isMouseOverZone,boolean,false,false, , ,false,<default>
+label_step,int,false,false, , ,false,<default>
+lastMovedOverZone,int,false,false, , ,false,<default>
+myLog,TerraPeerLog,false,false, , ,false,<default>
+myZone,Zone,false,false, , ,false,<default>
+myZoneWorld,ZoneWorld,false,false, , ,false,<default>
+thisMovedOverZone,int,false,false, , ,false,<default>
+xcount,int,false,false, , ,false,<default>
+ycount,int,false,false, , ,false,<default>
+zoneCount,int,false,false, , ,true,<default>
+ZoneGridMouseCoordsLabel,JLabel,false,false, , ,false,<default>
+zones,Vector,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

@@ -1,0 +1,18 @@
+[PropertyInfo]
+color,javax.vecmath.Color4f,false,false, , ,true,<default>
+depth,double,false,false, , ,true,<default>
+fourPoint_NE,Vector3d,false,false, , ,false,<default>
+fourPoint_NW,Vector3d,false,false, , ,false,<default>
+fourPoint_SE,Vector3d,false,false, , ,false,<default>
+fourPoint_SW,Vector3d,false,false, , ,false,<default>
+height,double,false,false, , ,true,<default>
+multiPoint,java.util.Vector,false,false, , ,false,<default>
+zone_BorderType,int,false,false, , ,true,<default>
+zone_GeoType,int,false,false, , ,true,<default>
+twoPoint_NE,javax.vecmath.Vector3d,false,false,twoPoint_NE,twoPoint_NE,true,<default>
+twoPoint_SW,javax.vecmath.Vector3d,false,false,twoPoint_SW,twoPoint_SW,true,<default>
+[IconNames]
+
+
+
+

@@ -1,0 +1,14 @@
+[PropertyInfo]
+avatCamera,FlyCamera,false,false, , ,false,<default>
+myLog,TerraPeerLog,false,false, , ,false,<default>
+orbitCamera,OrbitCamera,false,false, , ,false,<default>
+spaceCore,SpaceCore,false,false, , ,false,<default>
+spaceView_avat,AppView,false,false, , ,false,<default>
+spaceView_grid,AppView,false,false, , ,false,<default>
+spaceView_orbit,AppView,false,false, , ,false,<default>
+spaceWorld,AppWorld,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

@@ -1,0 +1,32 @@
+[PropertyInfo]
+_camera,AvatarCamera,false,false, , ,false,<default>
+_pitchDragger,RelativeDragger,false,false, , ,false,<default>
+_pitchFilter,RateInputDragFilter,false,false, , ,false,<default>
+_pitchMapper,DrmRotationMapper,false,false, , ,false,<default>
+_rollDragger,RelativeDragger,false,false, , ,false,<default>
+_rollFilter,RateInputDragFilter,false,false, , ,false,<default>
+_rollMapper,DrmRotationMapper,false,false, , ,false,<default>
+_thrustCanceler,AwtKeyboardModifierSensor,false,false, , ,false,<default>
+_thrustDragger,RelativeDragger,false,false, , ,false,<default>
+_thrustFilter,AccelerateInputDragFilter,false,false, , ,false,<default>
+_thrustMapper,DrmTranslationMapper,false,false, , ,false,<default>
+_yawDragger,RelativeDragger,false,false, , ,false,<default>
+_yawFilter,RateInputDragFilter,false,false, , ,false,<default>
+_yawMapper,DrmRotationMapper,false,false, , ,false,<default>
+heading,Tuple4d,false,false, , ,true,<default>
+pitchDragger,RelativeDragger,false,false, , ,true,<default>
+pitchMapper,DrmRotationMapper,false,false, , ,true,<default>
+position,Vector3d,false,false, , ,true,<default>
+rollDragger,RelativeDragger,false,false, , ,true,<default>
+rollMapper,DrmRotationMapper,false,false, , ,true,<default>
+speed,Vector2d,false,false, , ,true,<default>
+thrustCanceler,AwtKeyboardModifierSensor,false,false, , ,true,<default>
+thrustDragger,RelativeDragger,false,false, , ,true,<default>
+thrustMapper,DrmTranslationMapper,false,false, , ,true,<default>
+yawDragger,RelativeDragger,false,false, , ,true,<default>
+yawMapper,DrmRotationMapper,false,false, , ,true,<default>
+[IconNames]
+
+
+
+

@@ -1,0 +1,24 @@
+#VRML V2.0 utf8
+#pillar.wrl
+
+  Transform {
+    children [
+      Transform {   # pillar 1
+       translation .1 .25 .5
+        children
+          DEF Pillar Shape {
+            appearance Appearance {
+              material Material { }
+            } #End of appearance
+            geometry Box { size .0625 .5 .125 }
+          } #End of DEF Pillar Shape
+      } #End of Transform
+      Transform {   # pillar 2
+       translation .3 .25 .5
+        children USE Pillar
+      } #End of Transform
+    ] # End of root Transform's children
+  } # End of root Transform
+
+NavigationInfo { type "EXAMINE" }      # Use the Examine viewer
+

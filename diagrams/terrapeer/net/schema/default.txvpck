@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vuobnmjdquwilupe6ef60">
+        <property name="$metaclass" value="Package Diagram"/>
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$defaultDiagram" value=""/>
+        <property name="@__options" value="toolbar.group.Tools.expanded = true&#10;toolbar.buttonRunCount = 2&#10;toolbar.group.#DEFAULT.expanded = true&#10;toolbar.group.system.expanded = true&#10;scrollX = 0&#10;scrollY = 10&#10;zoomFactor = 1.0&#10;"/>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.schema.SizeType">
+            <property name="$shortcutReference" value="true"/>
+            <property name="@hideOperations" value=""/>
+            <property name="bounds" value="310,410,163,245"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.schema.ServiceObjectType">
+            <property name="$shortcutReference" value="true"/>
+            <property name="@hideOperations" value=""/>
+            <property name="bounds" value="1212,21,200,805"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.schema.GeometryType">
+            <property name="$shortcutReference" value="true"/>
+            <property name="@hideOperations" value=""/>
+            <property name="bounds" value="410,150,161,245"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.schema.ZoneWorldType">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="1040,20,153,341"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.schema.terrapeer_v1Doc">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="300,710,164,88"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.schema.BaseObjectType">
+            <property name="$shortcutReference" value="true"/>
+            <property name="@hideOperations" value=""/>
+            <property name="bounds" value="830,250,200,565"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.schema.terrapeer_v1Test">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="80,700,111,88"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.schema.ZoneType">
+            <property name="$shortcutReference" value="true"/>
+            <property name="@hideOperations" value=""/>
+            <property name="bounds" value="611,21,200,725"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.schema.TerraPeerType">
+            <property name="$shortcutReference" value="true"/>
+            <property name="@hideOperations" value=""/>
+            <property name="bounds" value="15,21,200,565"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.net.schema.Vector3dType">
+            <property name="$shortcutReference" value="true"/>
+            <property name="@hideOperations" value=""/>
+            <property name="bounds" value="240,70,153,325"/>
+        </reference>
+    </view>
+</nodeSet>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodeSet version="1.0">
+    <view uin="Vuobnmjdmz6d324ykn0ni">
+        <property name="$metaclass" value="Package Diagram"/>
+        <property name="$defaultDiagram" value="true"/>
+        <property name="$defaultDiagram" value=""/>
+        <property name="@__options" value="toolbar.group.Tools.expanded = true&#10;toolbar.buttonRunCount = 2&#10;toolbar.group.#DEFAULT.expanded = true&#10;toolbar.group.system.expanded = true&#10;scrollX = 0&#10;scrollY = 0&#10;zoomFactor = 1.0&#10;"/>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.service.URLService">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="26,466,83,88"/>
+            <reference referencedUin="jdt:l_gnt:src:terrapeer.vui.service.URLService:ServiceBase">
+                <property name="sourceAnchor" value="67,466"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="67,406"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.service.HTTPService">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="145,10,122,107"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.service.FTPService">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="139,270,122,107"/>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.service.ServiceBase">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="16,283,103,123"/>
+            <reference referencedUin="jdt:l_gnt:src:terrapeer.vui.service.ServiceBase:VObject">
+                <property name="sourceAnchor" value="67,283"/>
+                <property name="bendpoints" value=""/>
+                <property name="targetAnchor" value="67,223"/>
+            </reference>
+        </reference>
+        <reference referencedUin="jdt:e_class:src:terrapeer.vui.service.VObject">
+            <property name="$shortcutReference" value="true"/>
+            <property name="bounds" value="10,10,115,213"/>
+        </reference>
+    </view>
+</nodeSet>
