@@ -11,8 +11,7 @@
 <p align="right"><font size="2"><i><strong><font color="#999999">You are here:</font> 
   </strong> terrapeer.dev.java.net <!-- InstanceBeginEditable name="EditRegionLocation" -->/
   Overview <!-- InstanceEndEditable --></i></font></p>
-<h1><!-- InstanceBeginEditable name="EditRegionHeadline" -->TerraPeer Project
-     Overview<!-- InstanceEndEditable --></h1>
+<h1><!-- InstanceBeginEditable name="EditRegionHeadline" -->Overview<!-- InstanceEndEditable --></h1>
 <p><font color="#999999">Main Menu:</font> <a href="index.html">Home</a> | 
   <a href="overview.html">Project Overview</a> | <a href="resources.html">Resources</a> 
   | <a href="screenshots.html">Screenshots</a></p>
@@ -23,110 +22,100 @@
 <hr>
 <p> </p>
 <h2><a name="proj"></a>Project Overview</h2>
+<h3>Keywords</h3>
+Distributed Virtual Environments (DVE), Peer-to-Peer (P2P), 3D User Interfaces,
+Avatars, Virtual Spaces and Zones, Distributed Networks, Online Games and Worlds,
+Cyberspace, Services, Web, User Rights, Trust and Access
 <h3>Goals</h3>
-<p><font size="2">The main goal is to create an application that supports a decentralized
+<p>The main goal is to create an application that supports a decentralized
     network, and virtualization in 3D space. The application should be able to
     connect to a peer-network,
     and to display a virtual world that users can move through, and meet other
-    users.</font></p>
-<p><font size="2">Other possible requirements: </font></p>
+    users.</p>
+<p>Other possible requirements: </p>
 <ul>
-  <li><font size="2">the ability to create virtual 'land'
+  <li>the ability to create virtual 'land'
         (zones), which would require standards for dynamic allocation of space
-  (reservation system)</font></li>
-  <li><font size="2">access control of virtual objects</font></li>
-  <li><font size="2">to support the exchange of data
-  between peers</font></li>
-  <li><font size="2">pluggable interface for 3rd party services (web-browser,
-      chat, file-sharing, forum, etc.) </font></li>
-  <li><font size="2">enable the user to manage personal information</font></li>
-  <li><font size="2">user-representation by
-                avatars</font></li>
-  <li><font size="2">group management</font></li>
-  <li><font size="2">a peer trust system</font></li>
-  <li><font size="2">the extension of the levels</font></li>
+  (reservation system)</li>
+  <li>access control of virtual objects</li>
+  <li>to support the exchange of data
+  between peers</li>
+  <li>pluggable interface for 3rd party services (web-browser,
+      chat, file-sharing, forum, etc.) </li>
+  <li>enable the user to manage personal information</li>
+  <li>user-representation by
+                avatars</li>
+  <li>group management</li>
+  <li>a peer trust system</li>
+  <li>the extension of the levels</li>
 </ul>
 <h3>Design</h3>
-<p><font size="2">The application is split into several main layers that represent
+<p>The application is split into several main layers that represent
      the group of objects which are responsible for the peer-network connectivity,
-  the peer base, the virtual 3D world, respectively.</font></p>
-<blockquote> 
-  <p> <font size="2"><em>6. GUI Layer - the 2D user interface<br>
-</em></font><font size="2"><em>5. Virtual User
-Interface (VUI) Layer - 3D display and control<br>
-4. Service Layer - sercices/plugins<br>
-3. Core Layer - logic<br>
-2. Repository - storage system <br>
-1. Peer Network Layer - JXTA dicovery, connectivity etc.</em></font></p>
-</blockquote>
-<p><font size="2">Layer 1 will use the JXTA protocols, which provides connection-,
+  the peer base, the virtual 3D world, respectively.</p>
+<table width="40%"  border="0" align="center" cellpadding="4" cellspacing="4">
+  <tr>
+    <td bgcolor="#CCCCCC"><em>6. GUI Layer - the 2D user interface</em></td>
+  </tr>
+  <tr>
+    <td bgcolor="#CCCCCC"><em>5. Virtual User Interface (VUI) Layer - 3D display
+    and control</em></td>
+  </tr>
+  <tr>
+    <td bgcolor="#CCCCCC"><em>4. Service Layer - sercices/plugins</em></td>
+  </tr>
+  <tr>
+    <td bgcolor="#CCCCCC"><em>3. Core Layer - logic</em></td>
+  </tr>
+  <tr>
+    <td bgcolor="#CCCCCC"><em>2. Repository - storage system </em></td>
+  </tr>
+  <tr>
+    <td bgcolor="#CCCCCC"><em>1. Peer Network Layer - JXTA dicovery, connectivity
+    etc.</em></td>
+  </tr>
+</table>
+<p>Layer 1 will use the JXTA protocols, which provides connection-,
     messaging-, group-, and security-services. The network layer will be abstract
     to be able to run any other service on level 3. It's main purpose will be
-  to connect to other peers, exchange data, and manage groups and security.</font></p>
-<p><font size="2">Level 5 draws upon the information and mechanisms provided
+  to connect to other peers, exchange data, and manage groups and security.</p>
+<p>Level 5 draws upon the information and mechanisms provided
     in layer 4, while it keeps track of 3D-world related data. This data includes
     information about the peer's own and other's virtual 'homes' and positions,
     and requires some storage system. The virtual world service level is responsible
     for the 3D user interface, a basic world, navigation support, as well as
-  a standard set of rights &amp; rules.</font></p>
+  a standard set of rights &amp; rules.</p>
 <h3> Implementation topics</h3>
-<p><font size="2">Secondary topics are listed in square brackets [].</font></p>
-<p><font size="2"><em>Basic Peer Network</em><br>
-  1. Build a distributed, ad-hoc connection of peers that act as both client &amp; 
-  server (mostly covered by JXTA)<br>
-  2. Provide unique identification (mostly covered by JXTA)<br>
-  3. Implement mechanisms for transferral of data (mostly covered by JXTA)<br>
-  4. [Enable secure communication] (partly covered by JXTA, maybe use GnuPG for
-   encryption)</font></p>
-<p><font size="2"><em>3D Interface</em><br>
-  1. Display basic virtual world on each peer (use X3D viewer)<br>
-  2. Enable peers to interact in world using personal avatar - requires user navigation<br>
-  3. Support clear position and navigation in world - 3D techniques<br>
-  4. Enable peers to create and share 'land' in the world - requires 'law' and 
-  settlement system<br>
-  5. Create basic rule-set to balance freedom and anarchy (and bandwidth) - spatial, 
-  view, and interaction restrictions<br>
-  6. Allow dynamic allocation of land (position reservation)<br>
-  7. Allow individual peers to create own rules and restrictions in their areas<br>
-  8. Allow public/shared areas (using groups)</font></p>
-<p><font size="2"><em>Personal Information &amp; Trust System</em><br>
-  1. Manage &amp; store user personal information<br>
-  2. [Manage &amp; store other peers trust level using agreements and peer-groups 
-  - P3P]<br>
-  3. [Set user-data requirements for own peers/services]<br>
-  4. [Create trust system using recommendations &amp; risk - feedback system]</font></p>
-<p>&nbsp;</p>
+<p>tba.</p>
 <h2><a name="tec"></a>Technologies</h2>
 <table width="600" border="0" align="center" cellpadding="4" cellspacing="4">
   <tbody>
     <tr bgcolor="#CCCCCC"> 
-      <td width="25%"><div align="right"><em><font size="-1">Code-base: </font></em></div></td>
-      <td width="75%"><font size="-1">Java, XML </font></td>
+      <td width="25%"><div align="right"><em>Code-base: </em></div></td>
+      <td width="75%">Java, XML </td>
     </tr>
     <tr bgcolor="#CCCCCC"> 
-      <td><div align="right"><em><font size="-1">Peer-to-peer platform: </font></em></div></td>
-      <td><font size="-1">JXTA</font></td>
+      <td><div align="right"><em>Peer-to-peer platform: </em></div></td>
+      <td>JXTA</td>
     </tr>
     <tr bgcolor="#CCCCCC">
-      <td><div align="right"><em><font size="-1">2D GUI: </font></em></div></td>
-      <td><font size="-1">Java Swing</font></td>
+      <td><div align="right"><em>2D GUI: </em></div></td>
+      <td>Java Swing</td>
     </tr>
     <tr bgcolor="#CCCCCC"> 
-      <td><div align="right"><em><font size="-1">3D engine: </font></em></div></td>
-      <td><font size="-1">X3D, Java3D, (maybe some C++ libs for faster rendering?) </font></td>
+      <td><div align="right"><em>3D engine: </em></div></td>
+      <td>X3D, Java3D</td>
     </tr>
     <tr bgcolor="#CCCCCC"> 
-      <td><div align="right"><em><font size="-1">Trust platform:</font></em></div></td>
-      <td><font size="-1">P3P standard, (maybe Poblano, GnuPG)</font></td>
+      <td><div align="right"><em>Trust platform:</em></div></td>
+      <td>P3P standard, (maybe Poblano, GnuPG)</td>
     </tr>
     <tr bgcolor="#CCCCCC">
-      <td><div align="right"><em><font size="-1">3rd party libs :</font></em></div></td> 
-      <td><font size="-1"> Xerces </font></td>
+      <td><div align="right"><em>Other libs :</em></div></td> 
+      <td> Xerces</td>
     </tr>
   </tbody>
 </table>
-<p>&nbsp;</p>
-<h2>&nbsp;</h2>
 <p>&nbsp;</p>
 <!-- InstanceEndEditable --> 
 <hr>
@@ -134,7 +123,7 @@ Interface (VUI) Layer - 3D display and control<br>
 <p align="right"> <font face="Arial, Helvetica, sans-serif" size="1"><i>Maintained
       by Henrik Gehrmann (c) 2004 <br>
   Last Edited 
-  <!-- #BeginDate format:Am1 -->July 5, 2004<!-- #EndDate -->
+  <!-- #BeginDate format:Am1 -->July 6, 2004<!-- #EndDate -->
   </i></font></p>
 
 </body>
